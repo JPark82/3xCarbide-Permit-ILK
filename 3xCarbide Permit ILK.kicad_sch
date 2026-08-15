@@ -9209,7 +9209,7 @@
 				)
 			)
 		)
-		(property "Value" "PB(N.C)"
+		(property "Value" "18535CD"
 			(at 143.51 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9241,7 +9241,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, push-to-open, generic, two pins"
+		(property "Description" "SWITCH PUSH SPDT 0.1A 30V, Electrical Life 60,000 Cycles, 100 mA(DC)"
 			(at 143.51 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -9252,7 +9252,7 @@
 				)
 			)
 		)
-		(property "Mfr" ""
+		(property "Mfr" "APEM Inc."
 			(at 143.51 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -9264,6 +9264,17 @@
 			)
 		)
 		(property "Info" ""
+			(at 143.51 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Cost" "$12.96"
 			(at 143.51 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -9666,7 +9677,7 @@
 				)
 			)
 		)
-		(property "Value" "PB(N.C)"
+		(property "Value" "18535CD"
 			(at 142.24 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9698,7 +9709,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, push-to-open, generic, two pins"
+		(property "Description" "SWITCH PUSH SPDT 0.1A 30V, Electrical Life 60,000 Cycles, 100 mA(DC)"
 			(at 142.24 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -9709,7 +9720,7 @@
 				)
 			)
 		)
-		(property "Mfr" ""
+		(property "Mfr" "APEM Inc."
 			(at 142.24 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -9721,6 +9732,17 @@
 			)
 		)
 		(property "Info" ""
+			(at 142.24 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Cost" "$12.96"
 			(at 142.24 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -10287,7 +10309,7 @@
 				)
 			)
 		)
-		(property "Value" "PB(N.C)"
+		(property "Value" "18535CD"
 			(at 143.51 143.51 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10319,7 +10341,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, push-to-open, generic, two pins"
+		(property "Description" "SWITCH PUSH SPDT 0.1A 30V, Electrical Life 60,000 Cycles, 100 mA(DC)"
 			(at 143.51 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -10330,7 +10352,7 @@
 				)
 			)
 		)
-		(property "Mfr" ""
+		(property "Mfr" "APEM Inc."
 			(at 143.51 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -10342,6 +10364,17 @@
 			)
 		)
 		(property "Info" ""
+			(at 143.51 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Cost" "$12.96"
 			(at 143.51 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -11149,7 +11182,7 @@
 				)
 			)
 		)
-		(property "Value" "PB(N.C)"
+		(property "Value" "18535CD"
 			(at 142.24 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11181,7 +11214,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, push-to-open, generic, two pins"
+		(property "Description" "SWITCH PUSH SPDT 0.1A 30V, Electrical Life 60,000 Cycles, 100 mA(DC)"
 			(at 142.24 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -11192,7 +11225,7 @@
 				)
 			)
 		)
-		(property "Mfr" ""
+		(property "Mfr" "APEM Inc."
 			(at 142.24 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -11204,6 +11237,17 @@
 			)
 		)
 		(property "Info" ""
+			(at 142.24 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Cost" "$12.96"
 			(at 142.24 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -11803,7 +11847,7 @@
 				)
 			)
 		)
-		(property "Value" "PB(N.C)"
+		(property "Value" "18535CD"
 			(at 144.78 212.09 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11835,7 +11879,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, push-to-open, generic, two pins"
+		(property "Description" "SWITCH PUSH SPDT 0.1A 30V, Electrical Life 60,000 Cycles, 100 mA(DC)"
 			(at 144.78 209.55 0)
 			(hide yes)
 			(show_name no)
@@ -11846,7 +11890,7 @@
 				)
 			)
 		)
-		(property "Mfr" ""
+		(property "Mfr" "APEM Inc."
 			(at 144.78 209.55 0)
 			(hide yes)
 			(show_name no)
@@ -11858,6 +11902,17 @@
 			)
 		)
 		(property "Info" ""
+			(at 144.78 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Cost" "$12.96"
 			(at 144.78 209.55 0)
 			(hide yes)
 			(show_name no)
@@ -12543,7 +12598,7 @@
 				)
 			)
 		)
-		(property "Value" "PB(N.C)"
+		(property "Value" "18535CD"
 			(at 144.78 191.77 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12575,7 +12630,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, push-to-open, generic, two pins"
+		(property "Description" "SWITCH PUSH SPDT 0.1A 30V, Electrical Life 60,000 Cycles, 100 mA(DC)"
 			(at 144.78 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -12586,7 +12641,7 @@
 				)
 			)
 		)
-		(property "Mfr" ""
+		(property "Mfr" "APEM Inc."
 			(at 144.78 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -12598,6 +12653,17 @@
 			)
 		)
 		(property "Info" ""
+			(at 144.78 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Cost" "$12.96"
 			(at 144.78 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -13626,4 +13692,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )

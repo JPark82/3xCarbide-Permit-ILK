@@ -345,6 +345,30 @@
           "show": false
         },
         {
+          "group_by": false,
+          "label": "Info",
+          "name": "Info",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Mfr",
+          "name": "Mfr",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Cost",
+          "name": "Cost",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": true
+        },
+        {
           "group_by": true,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
@@ -382,12 +406,6 @@
         },
         {
           "group_by": false,
-          "label": "Mfr",
-          "name": "Mfr",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "Note",
           "name": "Note",
           "show": false
@@ -396,24 +414,6 @@
           "group_by": false,
           "label": "Sim.Pins",
           "name": "Sim.Pins",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Info",
-          "name": "Info",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Description",
-          "name": "Description",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Cost",
-          "name": "Cost",
           "show": false
         },
         {
@@ -433,8 +433,8 @@
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
-      "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_asc": false,
+      "sort_field": "Sim.Pins"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
