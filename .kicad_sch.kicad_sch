@@ -46,6 +46,13 @@
 				(justify left top)
 			)
 		)
+		(instances
+			(project ".kicad_sch"
+				(path "/09dbfdd6-7cc7-4520-a5d9-a383f63872a0"
+					(page "2")
+				)
+			)
+		)
 	)
 	(sheet
 		(at 0 0)
@@ -85,5 +92,18 @@
 				(justify left top)
 			)
 		)
+		(instances
+			(project ".kicad_sch"
+				(path "/09dbfdd6-7cc7-4520-a5d9-a383f63872a0"
+					(page "3")
+				)
+			)
+		)
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )

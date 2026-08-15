@@ -3215,36 +3215,20 @@
 		(uuid "fdbe5628-6085-4a42-aca6-1a822d35a948")
 	)
 	(no_connect
-		(at 217.17 190.5)
-		(uuid "0f9dab90-b792-480e-aab1-38c12933bf4f")
+		(at 218.44 241.3)
+		(uuid "073c0b2b-07f6-4637-9e7f-4ce0018283cc")
 	)
 	(no_connect
 		(at 218.44 224.79)
-		(uuid "14dc6919-ad7e-425b-87c2-d533d5276fe1")
-	)
-	(no_connect
-		(at 218.44 220.98)
-		(uuid "20edacd2-2488-4556-a3ea-b52153a6edd1")
-	)
-	(no_connect
-		(at 218.44 241.3)
-		(uuid "2c889252-b701-4fbf-a1c0-91742fa97753")
-	)
-	(no_connect
-		(at 217.17 194.31)
-		(uuid "36b9d9c9-1609-4939-b7dc-b98f9bb58f43")
-	)
-	(no_connect
-		(at 217.17 177.8)
-		(uuid "44d5015c-ab1f-46c3-ba53-cb612887dbc0")
-	)
-	(no_connect
-		(at 218.44 245.11)
-		(uuid "50357bcd-1401-4044-88c4-386000847d4a")
+		(uuid "29811070-a545-42f1-85df-1915bf88a03b")
 	)
 	(no_connect
 		(at 217.17 173.99)
-		(uuid "523580b1-073e-49d5-82e2-d5804d76fbae")
+		(uuid "2f905abc-4f3c-482e-aed5-cbcb3f100ef9")
+	)
+	(no_connect
+		(at 218.44 220.98)
+		(uuid "6733f68a-60da-4514-b7fe-a43e2edf0bfe")
 	)
 	(no_connect
 		(at 205.74 198.12)
@@ -3252,31 +3236,47 @@
 	)
 	(no_connect
 		(at 218.44 217.17)
-		(uuid "713b4b16-eea5-497a-b5f1-cb126938591d")
+		(uuid "75ba210e-1cbb-4096-81f3-475e024eab85")
 	)
 	(no_connect
-		(at 217.17 198.12)
-		(uuid "8811c7c1-cdf4-452a-9f1b-517aa2fecda6")
-	)
-	(no_connect
-		(at 218.44 237.49)
-		(uuid "936dc783-8dc6-49ec-bd99-139a12b910cc")
+		(at 217.17 194.31)
+		(uuid "7d26e0bd-104a-4c13-80c8-1969985982a3")
 	)
 	(no_connect
 		(at 140.97 179.07)
 		(uuid "9a4480e6-88b7-4fa0-9cea-509791dfc7e2")
 	)
 	(no_connect
+		(at 217.17 198.12)
+		(uuid "a4cb8d37-7471-4fa8-950e-84b80d9f2a30")
+	)
+	(no_connect
 		(at 207.01 237.49)
 		(uuid "b1cfb656-e82e-4f6c-8b01-0f08bfd6f614")
 	)
 	(no_connect
+		(at 217.17 177.8)
+		(uuid "bdacc504-4f73-4997-9369-c7a513f36986")
+	)
+	(no_connect
+		(at 217.17 190.5)
+		(uuid "c74e20dc-8cf4-40e4-9081-be33bcdc31ae")
+	)
+	(no_connect
 		(at 217.17 170.18)
-		(uuid "cbf105b4-61d3-42eb-a013-5fd07b996fad")
+		(uuid "d0361af5-4ec2-49bb-9ded-e94ccde6f9be")
+	)
+	(no_connect
+		(at 218.44 245.11)
+		(uuid "d5fde7ae-413e-4a4d-8957-2f4aad4230cc")
 	)
 	(no_connect
 		(at 205.74 177.8)
 		(uuid "de6e59d1-8d5a-43f6-b27f-e08947022bb8")
+	)
+	(no_connect
+		(at 218.44 237.49)
+		(uuid "e6a837be-c3ac-49e1-80b2-5c715000647a")
 	)
 	(no_connect
 		(at 140.97 193.04)
@@ -3344,6 +3344,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 171.45) (xy 140.97 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c53834c-d9ac-4a8d-8c60-f061d71a61a7")
+	)
+	(wire
+		(pts
 			(xy 140.97 198.12) (xy 147.32 198.12)
 		)
 		(stroke
@@ -3384,7 +3394,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 171.45) (xy 158.75 171.45)
+			(xy 162.56 166.37) (xy 158.75 166.37)
 		)
 		(stroke
 			(width 0)
@@ -3424,7 +3434,17 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 171.45) (xy 151.13 171.45)
+			(xy 149.86 166.37) (xy 149.86 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9aae9e78-9e46-4208-98ce-b3c52bacf8fe")
+	)
+	(wire
+		(pts
+			(xy 149.86 166.37) (xy 151.13 166.37)
 		)
 		(stroke
 			(width 0)
@@ -20219,7 +20239,7 @@
 	)
 	(global_label "24VDC1"
 		(shape output)
-		(at 162.56 171.45 0)
+		(at 162.56 166.37 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -20229,7 +20249,7 @@
 		)
 		(uuid "a812815a-dee8-4006-b58e-5bcde4bd38df")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 172.8023 171.45 0)
+			(at 172.8023 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20407,6 +20427,12 @@
 			(uuid "1cc4fa63-7bf9-4d98-b9ea-62e3f4bfaead")
 		)
 		(instances
+			(project ".kicad_sch"
+				(path "/09dbfdd6-7cc7-4520-a5d9-a383f63872a0/224bdcb2-225d-496a-8b41-82b301326953"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
 			(project "3xCarbide Permit ILK"
 				(path "/224bdcb2-225d-496a-8b41-82b301326953"
 					(reference "#PWR05")
@@ -20485,6 +20511,12 @@
 			(uuid "beb6e7e6-4534-489d-a01a-16c4311b3234")
 		)
 		(instances
+			(project ".kicad_sch"
+				(path "/09dbfdd6-7cc7-4520-a5d9-a383f63872a0/224bdcb2-225d-496a-8b41-82b301326953"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
 			(project "3xCarbide Permit ILK"
 				(path "/224bdcb2-225d-496a-8b41-82b301326953"
 					(reference "#PWR04")
@@ -20563,6 +20595,12 @@
 			(uuid "4e7a58b5-51a7-40d1-af64-60fa8e6a401f")
 		)
 		(instances
+			(project ".kicad_sch"
+				(path "/09dbfdd6-7cc7-4520-a5d9-a383f63872a0/224bdcb2-225d-496a-8b41-82b301326953"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
 			(project "3xCarbide Permit ILK"
 				(path "/224bdcb2-225d-496a-8b41-82b301326953"
 					(reference "#PWR03")
@@ -20660,6 +20698,17 @@
 				)
 			)
 		)
+		(property "Cost" "$1.83"
+			(at 208.28 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin ""
 			(uuid "68c3747a-5c7e-48a0-a34b-b5fe3dd3b0fe")
 		)
@@ -20676,6 +20725,12 @@
 			(uuid "0c0c7683-ac3e-4b3b-9084-e40026bc851e")
 		)
 		(instances
+			(project ".kicad_sch"
+				(path "/09dbfdd6-7cc7-4520-a5d9-a383f63872a0/224bdcb2-225d-496a-8b41-82b301326953"
+					(reference "TB1")
+					(unit 1)
+				)
+			)
 			(project "3xCarbide Permit ILK"
 				(path "/224bdcb2-225d-496a-8b41-82b301326953"
 					(reference "TB1")
@@ -20773,6 +20828,17 @@
 				)
 			)
 		)
+		(property "Cost" "$1.83"
+			(at 209.55 234.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin ""
 			(uuid "e0e03015-3f94-4601-8d1b-a5db4ca09176")
 		)
@@ -20789,6 +20855,12 @@
 			(uuid "f72b138d-8901-4ce7-9871-de14baa8d869")
 		)
 		(instances
+			(project ".kicad_sch"
+				(path "/09dbfdd6-7cc7-4520-a5d9-a383f63872a0/224bdcb2-225d-496a-8b41-82b301326953"
+					(reference "TB4")
+					(unit 1)
+				)
+			)
 			(project "3xCarbide Permit ILK"
 				(path "/224bdcb2-225d-496a-8b41-82b301326953"
 					(reference "TB4")
@@ -20807,9 +20879,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "6a2a368c-aac2-4a7f-a161-e9fe382fffdb")
-		(property "Reference" "F2"
-			(at 150.368 173.99 90)
+		(uuid "692cbe49-754f-46ec-85fd-e0edd7b37621")
+		(property "Reference" "TB-F2"
+			(at 154.94 171.704 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20818,8 +20890,8 @@
 				)
 			)
 		)
-		(property "Value" "3A"
-			(at 159.004 176.784 90)
+		(property "Value" "1880410000"
+			(at 155.956 177.292 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20850,7 +20922,7 @@
 				)
 			)
 		)
-		(property "Description" "Fuse"
+		(property "Description" "CONN TERM BLK DISCONN 10-30AWG Fuse Type: 6.3mm x 32mm"
 			(at 154.94 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -20861,16 +20933,48 @@
 				)
 			)
 		)
+		(property "Mfr" "Weidmüller"
+			(at 154.94 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Cost" "$33.68"
+			(at 154.94 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Info" "3A"
+			(at 153.67 173.482 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
-			(uuid "43eaf465-7eb1-4ff7-8c06-8bfb72ba1396")
+			(uuid "b1bd4382-d8ab-4bb3-8923-60a62c394e84")
 		)
 		(pin "2"
-			(uuid "ade6d354-2d1f-4837-9fd0-be14fd4130bc")
+			(uuid "bcd51b5a-dd74-49c8-b730-77cd4b4019c1")
 		)
 		(instances
-			(project "3xCarbide Permit ILK"
-				(path "/224bdcb2-225d-496a-8b41-82b301326953"
-					(reference "F2")
+			(project ".kicad_sch"
+				(path "/09dbfdd6-7cc7-4520-a5d9-a383f63872a0/224bdcb2-225d-496a-8b41-82b301326953"
+					(reference "TB-F2")
 					(unit 1)
 				)
 			)
@@ -20965,6 +21069,17 @@
 				)
 			)
 		)
+		(property "Cost" "$1.83"
+			(at 209.55 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin ""
 			(uuid "b7f79e7c-5f63-4ef3-90d3-2e55525b80d0")
 		)
@@ -20981,6 +21096,12 @@
 			(uuid "e40756be-804b-4a33-8ec3-a1a03d49cb44")
 		)
 		(instances
+			(project ".kicad_sch"
+				(path "/09dbfdd6-7cc7-4520-a5d9-a383f63872a0/224bdcb2-225d-496a-8b41-82b301326953"
+					(reference "TB3")
+					(unit 1)
+				)
+			)
 			(project "3xCarbide Permit ILK"
 				(path "/224bdcb2-225d-496a-8b41-82b301326953"
 					(reference "TB3")
@@ -21074,6 +21195,17 @@
 				)
 			)
 		)
+		(property "Cost" "$138.29"
+			(at 125.73 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2.4"
 			(uuid "898f1216-d9cf-488b-af7a-4bbdd1472419")
 		)
@@ -21108,6 +21240,12 @@
 			(uuid "6852560f-ee11-45ca-a488-6c97c8afd0dc")
 		)
 		(instances
+			(project ".kicad_sch"
+				(path "/09dbfdd6-7cc7-4520-a5d9-a383f63872a0/224bdcb2-225d-496a-8b41-82b301326953"
+					(reference "PS1")
+					(unit 1)
+				)
+			)
 			(project "3xCarbide Permit ILK"
 				(path "/224bdcb2-225d-496a-8b41-82b301326953"
 					(reference "PS1")
@@ -21118,7 +21256,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 154.94 171.45 90)
+		(at 154.94 166.37 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21127,8 +21265,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a1f7a565-45f7-4b7d-8533-9f71a2595405")
-		(property "Reference" "F1"
-			(at 150.368 170.18 90)
+		(property "Reference" "TB-F1"
+			(at 152.4 161.036 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21137,8 +21275,8 @@
 				)
 			)
 		)
-		(property "Value" "1A"
-			(at 159.004 172.72 90)
+		(property "Value" "1880410000"
+			(at 155.194 164.592 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21148,7 +21286,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 154.94 173.228 90)
+			(at 154.94 168.148 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21159,7 +21297,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 171.45 0)
+			(at 154.94 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21169,9 +21307,41 @@
 				)
 			)
 		)
-		(property "Description" "Fuse"
-			(at 154.94 171.45 0)
+		(property "Description" "CONN TERM BLK DISCONN 10-30AWG Fuse Type: 6.3mm x 32mm"
+			(at 154.94 166.37 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr" "Weidmüller"
+			(at 154.94 166.37 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Cost" "$33.68"
+			(at 154.94 166.37 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Info" "1A"
+			(at 152.146 162.814 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21187,6 +21357,12 @@
 			(uuid "7df0910f-075c-4ef4-a234-3bb318595baa")
 		)
 		(instances
+			(project ".kicad_sch"
+				(path "/09dbfdd6-7cc7-4520-a5d9-a383f63872a0/224bdcb2-225d-496a-8b41-82b301326953"
+					(reference "TB-F1")
+					(unit 1)
+				)
+			)
 			(project "3xCarbide Permit ILK"
 				(path "/224bdcb2-225d-496a-8b41-82b301326953"
 					(reference "F1")
@@ -21237,7 +21413,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/tt-electronics-optek-technology/OVLFG3C7/827117"
 			(at 173.99 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -21248,7 +21424,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "LED GREEN CLEAR 5MM T/H"
 			(at 173.99 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -21270,6 +21446,28 @@
 				)
 			)
 		)
+		(property "Cost" "$0.44"
+			(at 173.99 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr" "TT Electronics"
+			(at 173.99 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b4cf900e-78d5-4fd0-bbc5-c4eeb9bb46c2")
 		)
@@ -21277,6 +21475,12 @@
 			(uuid "2185a9cb-98b0-4dbb-b0d2-d4c297ff3a27")
 		)
 		(instances
+			(project ".kicad_sch"
+				(path "/09dbfdd6-7cc7-4520-a5d9-a383f63872a0/224bdcb2-225d-496a-8b41-82b301326953"
+					(reference "LED3")
+					(unit 1)
+				)
+			)
 			(project "3xCarbide Permit ILK"
 				(path "/224bdcb2-225d-496a-8b41-82b301326953"
 					(reference "LED3")
@@ -21360,6 +21564,17 @@
 				)
 			)
 		)
+		(property "Cost" "$15.18"
+			(at 60.96 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "9fb56815-a3c1-4a9a-9423-69d03ac533ce")
 		)
@@ -21370,6 +21585,12 @@
 			(uuid "44adc32c-bdaa-4f55-a1b0-fbe3e5996736")
 		)
 		(instances
+			(project ".kicad_sch"
+				(path "/09dbfdd6-7cc7-4520-a5d9-a383f63872a0/224bdcb2-225d-496a-8b41-82b301326953"
+					(reference "J7")
+					(unit 1)
+				)
+			)
 			(project "3xCarbide Permit ILK"
 				(path "/224bdcb2-225d-496a-8b41-82b301326953"
 					(reference "J7")
@@ -21443,6 +21664,28 @@
 				)
 			)
 		)
+		(property "Cost" "$0.69"
+			(at 201.93 229.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr" "Phoenix Contact"
+			(at 201.93 229.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "840082a3-afca-419d-8107-537ceefeee7b")
 		)
@@ -21450,6 +21693,12 @@
 			(uuid "e0a62608-ca01-4110-8dd7-8354418896f5")
 		)
 		(instances
+			(project ".kicad_sch"
+				(path "/09dbfdd6-7cc7-4520-a5d9-a383f63872a0/224bdcb2-225d-496a-8b41-82b301326953"
+					(reference "PTJP5")
+					(unit 1)
+				)
+			)
 			(project "3xCarbide Permit ILK"
 				(path "/224bdcb2-225d-496a-8b41-82b301326953"
 					(reference "PTJP5")
@@ -21532,6 +21781,28 @@
 				)
 			)
 		)
+		(property "Mfr" "Littelfuse Inc."
+			(at 90.17 171.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Cost" "$6.16"
+			(at 90.17 171.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ec3a9852-39d6-4d49-8dc3-1b4bc465c54a")
 		)
@@ -21539,6 +21810,12 @@
 			(uuid "94ec91c6-e37d-4a35-9473-72a2a5663e05")
 		)
 		(instances
+			(project ".kicad_sch"
+				(path "/09dbfdd6-7cc7-4520-a5d9-a383f63872a0/224bdcb2-225d-496a-8b41-82b301326953"
+					(reference "FH1")
+					(unit 1)
+				)
+			)
 			(project "3xCarbide Permit ILK"
 				(path "/224bdcb2-225d-496a-8b41-82b301326953"
 					(reference "FH1")
@@ -21617,6 +21894,12 @@
 			(uuid "6aed496d-934d-443a-8531-58f704dec450")
 		)
 		(instances
+			(project ".kicad_sch"
+				(path "/09dbfdd6-7cc7-4520-a5d9-a383f63872a0/224bdcb2-225d-496a-8b41-82b301326953"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
 			(project "3xCarbide Permit ILK"
 				(path "/224bdcb2-225d-496a-8b41-82b301326953"
 					(reference "#PWR06")
@@ -21714,6 +21997,17 @@
 				)
 			)
 		)
+		(property "Cost" "$1.83"
+			(at 208.28 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin ""
 			(uuid "4fbde59a-b6d9-416e-b8bf-e7c1508720c0")
 		)
@@ -21730,6 +22024,12 @@
 			(uuid "c740bb2b-1174-431c-8ef7-0359f5433839")
 		)
 		(instances
+			(project ".kicad_sch"
+				(path "/09dbfdd6-7cc7-4520-a5d9-a383f63872a0/224bdcb2-225d-496a-8b41-82b301326953"
+					(reference "TB2")
+					(unit 1)
+				)
+			)
 			(project "3xCarbide Permit ILK"
 				(path "/224bdcb2-225d-496a-8b41-82b301326953"
 					(reference "TB2")
