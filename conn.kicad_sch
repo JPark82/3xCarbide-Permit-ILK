@@ -20836,6 +20836,12 @@
 					(unit 1)
 				)
 			)
+			(project "3xCarbide Permit ILK"
+				(path "/224bdcb2-225d-496a-8b41-82b301326953"
+					(reference "EDP1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -21584,7 +21590,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a1f7a565-45f7-4b7d-8533-9f71a2595405")
-		(property "Reference" "TB-F1"
+		(property "Reference" "F1"
 			(at 152.4 161.036 90)
 			(show_name no)
 			(do_not_autoplace no)

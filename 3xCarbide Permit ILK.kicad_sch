@@ -9210,7 +9210,7 @@
 				)
 			)
 		)
-		(property "Value" "18535CD"
+		(property "Value" "2PB11"
 			(at 143.51 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9231,7 +9231,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/honeywell-sensing-and-productivity-solutions/2PB11/1248816"
 			(at 143.51 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -9242,7 +9242,7 @@
 				)
 			)
 		)
-		(property "Description" "SWITCH PUSH SPDT 0.1A 30V, Electrical Life 60,000 Cycles, 100 mA(DC)"
+		(property "Description" "PB Switch SPDT x 2 Standard Panel Mount, Rear"
 			(at 143.51 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -9253,7 +9253,7 @@
 				)
 			)
 		)
-		(property "Mfr" "APEM Inc."
+		(property "Mfr" "Honeywell Sensing"
 			(at 143.51 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -9275,7 +9275,7 @@
 				)
 			)
 		)
-		(property "Cost" "$12.96"
+		(property "Cost" "$165.16"
 			(at 143.51 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -9678,7 +9678,7 @@
 				)
 			)
 		)
-		(property "Value" "18535CD"
+		(property "Value" "2PB11"
 			(at 142.24 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9699,7 +9699,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/honeywell-sensing-and-productivity-solutions/2PB11/1248816"
 			(at 142.24 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -9710,7 +9710,7 @@
 				)
 			)
 		)
-		(property "Description" "SWITCH PUSH SPDT 0.1A 30V, Electrical Life 60,000 Cycles, 100 mA(DC)"
+		(property "Description" "PB Switch SPDT x 2 Standard Panel Mount, Rear"
 			(at 142.24 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -9721,7 +9721,7 @@
 				)
 			)
 		)
-		(property "Mfr" "APEM Inc."
+		(property "Mfr" "Honeywell Sensing"
 			(at 142.24 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -9743,7 +9743,7 @@
 				)
 			)
 		)
-		(property "Cost" "$12.96"
+		(property "Cost" "$165.16"
 			(at 142.24 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -10310,7 +10310,7 @@
 				)
 			)
 		)
-		(property "Value" "18535CD"
+		(property "Value" "2PB11"
 			(at 143.51 143.51 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10331,7 +10331,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/honeywell-sensing-and-productivity-solutions/2PB11/1248816"
 			(at 143.51 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -10342,7 +10342,7 @@
 				)
 			)
 		)
-		(property "Description" "SWITCH PUSH SPDT 0.1A 30V, Electrical Life 60,000 Cycles, 100 mA(DC)"
+		(property "Description" "PB Switch SPDT x 2 Standard Panel Mount, Rear"
 			(at 143.51 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -10353,7 +10353,7 @@
 				)
 			)
 		)
-		(property "Mfr" "APEM Inc."
+		(property "Mfr" "Honeywell Sensing"
 			(at 143.51 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -10375,7 +10375,7 @@
 				)
 			)
 		)
-		(property "Cost" "$12.96"
+		(property "Cost" "$165.16"
 			(at 143.51 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -11183,7 +11183,7 @@
 				)
 			)
 		)
-		(property "Value" "18535CD"
+		(property "Value" "2PB11"
 			(at 142.24 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11204,7 +11204,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/honeywell-sensing-and-productivity-solutions/2PB11/1248816"
 			(at 142.24 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -11215,7 +11215,7 @@
 				)
 			)
 		)
-		(property "Description" "SWITCH PUSH SPDT 0.1A 30V, Electrical Life 60,000 Cycles, 100 mA(DC)"
+		(property "Description" "PB Switch SPDT x 2 Standard Panel Mount, Rear"
 			(at 142.24 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -11226,7 +11226,7 @@
 				)
 			)
 		)
-		(property "Mfr" "APEM Inc."
+		(property "Mfr" "Honeywell Sensing"
 			(at 142.24 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -11248,7 +11248,7 @@
 				)
 			)
 		)
-		(property "Cost" "$12.96"
+		(property "Cost" "$165.16"
 			(at 142.24 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -11848,7 +11848,7 @@
 				)
 			)
 		)
-		(property "Value" "18535CD"
+		(property "Value" "2PB11"
 			(at 144.78 212.09 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11869,7 +11869,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/honeywell-sensing-and-productivity-solutions/2PB11/1248816"
 			(at 144.78 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -11880,7 +11880,7 @@
 				)
 			)
 		)
-		(property "Description" "SWITCH PUSH SPDT 0.1A 30V, Electrical Life 60,000 Cycles, 100 mA(DC)"
+		(property "Description" "PB Switch SPDT x 2 Standard Panel Mount, Rear"
 			(at 144.78 209.55 0)
 			(hide yes)
 			(show_name no)
@@ -11891,7 +11891,7 @@
 				)
 			)
 		)
-		(property "Mfr" "APEM Inc."
+		(property "Mfr" "Honeywell Sensing"
 			(at 144.78 209.55 0)
 			(hide yes)
 			(show_name no)
@@ -11913,7 +11913,7 @@
 				)
 			)
 		)
-		(property "Cost" "$12.96"
+		(property "Cost" "$165.16"
 			(at 144.78 209.55 0)
 			(hide yes)
 			(show_name no)
@@ -12599,7 +12599,7 @@
 				)
 			)
 		)
-		(property "Value" "18535CD"
+		(property "Value" "2PB11"
 			(at 144.78 191.77 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12620,7 +12620,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/honeywell-sensing-and-productivity-solutions/2PB11/1248816"
 			(at 144.78 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -12631,7 +12631,7 @@
 				)
 			)
 		)
-		(property "Description" "SWITCH PUSH SPDT 0.1A 30V, Electrical Life 60,000 Cycles, 100 mA(DC)"
+		(property "Description" "PB Switch SPDT x 2 Standard Panel Mount, Rear"
 			(at 144.78 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -12642,7 +12642,7 @@
 				)
 			)
 		)
-		(property "Mfr" "APEM Inc."
+		(property "Mfr" "Honeywell Sensing"
 			(at 144.78 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -12664,7 +12664,7 @@
 				)
 			)
 		)
-		(property "Cost" "$12.96"
+		(property "Cost" "$165.16"
 			(at 144.78 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -13693,4 +13693,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
