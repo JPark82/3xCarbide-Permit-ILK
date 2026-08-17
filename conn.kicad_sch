@@ -10,7 +10,7 @@
 		(rev "1")
 		(company "SLAC")
 		(comment 1 "ENGR: J.Park")
-		(comment 2 "CHKR: J.P")
+		(comment 2 "CHKR: J.Park")
 		(comment 3 "DRFT: KiCad v10")
 	)
 	(lib_symbols
@@ -958,6 +958,92 @@
 							(font
 								(size 1.27 1.27)
 							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "JP_3xCarbide:TB-End"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "EDP"
+				(at -9.144 0.762 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.phoenixcontact.com/en-us/products/end-cover-d-pt-15s-quattro-3208375?type=pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TB-End_0_1"
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy -15.24 2.54) (xy -16.51 1.27) (xy -16.51 -5.08) (xy -1.27 -5.08) (xy -1.27 1.27)
+						(xy -2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TB-End_1_1"
+				(text "Conn.End Plate "
+					(at -8.128 -2.794 0)
+					(effects
+						(font
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -2181,7 +2267,7 @@
 		(uuid "040249cd-6551-4971-8ced-17aeb6443c31")
 	)
 	(circle
-		(center 122.555 62.23)
+		(center 122.555 64.135)
 		(radius 2.6182)
 		(stroke
 			(width 0)
@@ -2246,7 +2332,7 @@
 		(uuid "22dcfc31-e510-4bfb-903b-174baa9f52a7")
 	)
 	(circle
-		(center 113.665 62.23)
+		(center 113.665 64.135)
 		(radius 2.6182)
 		(stroke
 			(width 0)
@@ -2258,6 +2344,18 @@
 			(color 132 132 132 1)
 		)
 		(uuid "23e2d6bf-ec14-481c-8bb8-d4122937c33e")
+	)
+	(rectangle
+		(start 55.245 210.185)
+		(end 108.585 252.095)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "27632a06-7631-4f8a-a5e9-d7326d757eeb")
 	)
 	(circle
 		(center 156.464 123.444)
@@ -2272,7 +2370,7 @@
 		(uuid "2a40ebf9-d829-4d75-afa0-d66dfca40694")
 	)
 	(circle
-		(center 113.665 62.23)
+		(center 113.665 64.135)
 		(radius 1.27)
 		(stroke
 			(width 0.508)
@@ -2298,6 +2396,30 @@
 		)
 		(uuid "3c611364-6b31-4918-92f1-29c4929a2992")
 	)
+	(rectangle
+		(start 144.018 61.341)
+		(end 151.638 65.151)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "4068ad7a-fbe7-4976-bd7a-c0ec6364373a")
+	)
+	(rectangle
+		(start 144.018 73.406)
+		(end 151.638 77.216)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "42df5caa-bae0-4a50-ba0f-9dd8941d685e")
+	)
 	(circle
 		(center 66.8164 61.087)
 		(radius 2.6182)
@@ -2312,7 +2434,7 @@
 		(uuid "43eb846d-7bac-4401-9c53-095cfab9d057")
 	)
 	(circle
-		(center 122.555 62.23)
+		(center 122.555 64.135)
 		(radius 1.27)
 		(stroke
 			(width 0.508)
@@ -2339,7 +2461,20 @@
 		(uuid "4986854c-7f0c-4a31-9468-b58dea38a491")
 	)
 	(circle
-		(center 113.665 71.12)
+		(center 143.256 76.708)
+		(radius 0.568)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 194 0 1)
+		)
+		(uuid "4bd7e53a-7d38-4ecd-8432-b9f5ac363194")
+	)
+	(circle
+		(center 113.665 73.025)
 		(radius 2.6182)
 		(stroke
 			(width 0)
@@ -2353,7 +2488,7 @@
 		(uuid "5110dd48-262c-4556-a8ab-dbd6ee03f483")
 	)
 	(circle
-		(center 130.81 71.12)
+		(center 130.81 73.025)
 		(radius 2.6182)
 		(stroke
 			(width 0)
@@ -2380,7 +2515,7 @@
 		(uuid "59f5140e-7450-4930-b9b5-2e4d3407b310")
 	)
 	(circle
-		(center 122.428 79.375)
+		(center 156.21 69.215)
 		(radius 2.6182)
 		(stroke
 			(width 0)
@@ -2432,7 +2567,7 @@
 		(uuid "6dd5d4f0-0691-4e81-aed3-eb2b02e64dc7")
 	)
 	(circle
-		(center 130.81 62.23)
+		(center 130.81 64.135)
 		(radius 2.6182)
 		(stroke
 			(width 0)
@@ -2459,7 +2594,20 @@
 		(uuid "7cdc0ca5-af60-40d9-bc87-c22c0dfcd77a")
 	)
 	(circle
-		(center 130.683 79.375)
+		(center 143.256 70.358)
+		(radius 0.568)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 194 0 1)
+		)
+		(uuid "7fc72059-b556-4555-aff5-4ca5d6438bd3")
+	)
+	(circle
+		(center 156.083 75.565)
 		(radius 2.6182)
 		(stroke
 			(width 0)
@@ -2485,7 +2633,7 @@
 		(uuid "83d33a55-9e78-4058-96f8-c0b256791bab")
 	)
 	(circle
-		(center 104.902 71.501)
+		(center 104.902 73.406)
 		(radius 2.6182)
 		(stroke
 			(width 0)
@@ -2550,7 +2698,7 @@
 		(uuid "94e80e44-de27-44db-88da-29c885ba274d")
 	)
 	(circle
-		(center 130.81 71.12)
+		(center 130.81 73.025)
 		(radius 1.27)
 		(stroke
 			(width 0.508)
@@ -2562,6 +2710,32 @@
 			(color 0 194 0 1)
 		)
 		(uuid "9697cc6c-b27d-423e-9405-318485a86c6c")
+	)
+	(circle
+		(center 143.256 64.643)
+		(radius 0.568)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 194 0 1)
+		)
+		(uuid "98bc8ce3-7aa6-41c4-a76d-1cfd572a8f35")
+	)
+	(circle
+		(center 156.21 62.865)
+		(radius 2.6182)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 1)
+		)
+		(uuid "9bd61fae-4452-4fbf-9fb9-862a80fda31a")
 	)
 	(circle
 		(center 66.8164 123.317)
@@ -2641,7 +2815,7 @@
 		(uuid "b4fb41cf-09c1-4a73-9efd-c9c91c48a050")
 	)
 	(circle
-		(center 104.902 61.976)
+		(center 104.902 63.881)
 		(radius 2.6182)
 		(stroke
 			(width 0)
@@ -2654,7 +2828,7 @@
 		(uuid "b91bb32b-ea2d-4410-a132-46f22f6b5dd4")
 	)
 	(circle
-		(center 130.81 62.23)
+		(center 130.81 64.135)
 		(radius 1.27)
 		(stroke
 			(width 0.508)
@@ -2770,20 +2944,7 @@
 		(uuid "d79abb62-f525-45c9-9437-9b8a37cccede")
 	)
 	(circle
-		(center 113.538 79.375)
-		(radius 2.6182)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type color)
-			(color 0 255 0 1)
-		)
-		(uuid "e24c06fe-701e-4c98-978a-0e52f2ee714c")
-	)
-	(circle
-		(center 122.555 71.12)
+		(center 122.555 73.025)
 		(radius 2.6182)
 		(stroke
 			(width 0)
@@ -2797,7 +2958,7 @@
 		(uuid "e2cbff6f-6df8-4625-8a33-bdd51072da87")
 	)
 	(circle
-		(center 122.555 71.12)
+		(center 122.555 73.025)
 		(radius 1.27)
 		(stroke
 			(width 0.508)
@@ -2809,6 +2970,18 @@
 			(color 0 194 0 1)
 		)
 		(uuid "f2ac7457-7e67-4a42-baa1-e1c8b7b85d0d")
+	)
+	(rectangle
+		(start 144.018 67.056)
+		(end 151.638 70.866)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "f423f867-ad08-4089-a9f6-450827d82194")
 	)
 	(rectangle
 		(start 57.785 49.53)
@@ -2836,7 +3009,7 @@
 		(uuid "f701a247-adc9-405a-b179-f2e57632e391")
 	)
 	(circle
-		(center 113.665 71.12)
+		(center 113.665 73.025)
 		(radius 1.27)
 		(stroke
 			(width 0.508)
@@ -2848,16 +3021,6 @@
 			(color 0 194 0 1)
 		)
 		(uuid "fec9dba3-fc95-41ad-9493-d816bc379363")
-	)
-	(text "Loop\n#1"
-		(exclude_from_sim no)
-		(at 113.538 80.01 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "00e4e03d-8f9f-411f-8ca1-1a1fb10f9246")
 	)
 	(text "TOPL 5VDC 48VDC0.5A // Item No.2773760000\nTERMSERIES-compact, Solid-state relay, \nRated control voltage: 5 V DC ±20 % , \nRated switching voltage: 5...48 V DC, \nContinuous current: 500 mA, PUSH IN\n\nRated control voltage: 5 V DC ±20 % \nNominal control current: 4.4 mA DC "
 		(exclude_from_sim no)
@@ -2882,7 +3045,7 @@
 	)
 	(text "Loop\n#3"
 		(exclude_from_sim no)
-		(at 130.81 80.01 0)
+		(at 156.21 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2892,7 +3055,7 @@
 	)
 	(text "Permit Removal Test PB\n"
 		(exclude_from_sim no)
-		(at 111.379 57.15 0)
+		(at 111.379 59.055 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2911,9 +3074,19 @@
 		)
 		(uuid "1685963c-eea5-4586-bdd6-034cd4e09ef8")
 	)
+	(text "Related accessories"
+		(exclude_from_sim no)
+		(at 77.47 213.36 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "192984a7-8a58-4979-854a-87e895277991")
+	)
 	(text "Ch:B"
 		(exclude_from_sim no)
-		(at 102.87 71.755 0)
+		(at 102.87 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2941,6 +3114,16 @@
 			)
 		)
 		(uuid "3a0d423b-2f42-45cf-8cb1-306e36076893")
+	)
+	(text "Loop\n#1"
+		(exclude_from_sim no)
+		(at 156.21 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "44ab5f79-323f-49cf-8c9a-acc417ff1f8d")
 	)
 	(text "LOOP \nSTATUS"
 		(exclude_from_sim no)
@@ -2982,9 +3165,9 @@
 		)
 		(uuid "518c28e8-534e-4c3a-b7b9-4c26104b2af9")
 	)
-	(text "Carbide Permit Loop Status"
+	(text "Carbide Permit \nLoop Status"
 		(exclude_from_sim no)
-		(at 108.966 83.82 0)
+		(at 142.24 59.055 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2992,6 +3175,17 @@
 			(justify left)
 		)
 		(uuid "521bde09-3d82-4e64-9c45-7c9736fcbebc")
+	)
+	(text "0.00"
+		(exclude_from_sim no)
+		(at 147.955 69.215 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+				(thickness 0.254)
+			)
+		)
+		(uuid "56f0fa76-b8e0-4468-a004-a105887fba94")
 	)
 	(text "PERMIT\nLOOP2"
 		(exclude_from_sim no)
@@ -3034,6 +3228,17 @@
 			(justify left)
 		)
 		(uuid "7104ac34-a341-4ac7-8246-db95e12ba03d")
+	)
+	(text "0.00"
+		(exclude_from_sim no)
+		(at 147.955 63.5 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+				(thickness 0.254)
+			)
+		)
+		(uuid "75d45680-9181-4e9f-a676-1592d1334ffd")
 	)
 	(text "PS\nOK"
 		(exclude_from_sim no)
@@ -3078,7 +3283,7 @@
 	)
 	(text "Ch:A"
 		(exclude_from_sim no)
-		(at 102.87 62.23 0)
+		(at 102.87 64.135 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3119,6 +3324,17 @@
 		)
 		(uuid "ad88540b-ee6b-428f-82ee-c08cffea02be")
 	)
+	(text "0.00"
+		(exclude_from_sim no)
+		(at 147.955 75.565 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+				(thickness 0.254)
+			)
+		)
+		(uuid "b111f4ef-747b-4532-bcae-c79c99dfd81c")
+	)
 	(text "PARTIAL_LASER_STOP(X13.9-21): Current-loop (5V, 40 mA max.)\nSYSTEM_STATUE(XS13.19-1): TTL OUT(5V,50mA max.)"
 		(exclude_from_sim no)
 		(at 320.548 33.655 0)
@@ -3143,7 +3359,7 @@
 	)
 	(text "Permit\n"
 		(exclude_from_sim no)
-		(at 101.981 57.15 0)
+		(at 101.981 59.055 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3165,7 +3381,7 @@
 	)
 	(text "Loop\n#2"
 		(exclude_from_sim no)
-		(at 122.428 80.01 0)
+		(at 156.21 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20527,6 +20743,102 @@
 		)
 	)
 	(symbol
+		(lib_id "JP_3xCarbide:TB-End")
+		(at 76.2 219.71 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "30e5a64b-385e-4b58-befd-00b513704b79")
+		(property "Reference" "EDP1"
+			(at 63.5 218.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3208375"
+			(at 66.04 220.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.phoenixcontact.com/en-us/products/end-cover-d-pt-15s-quattro-3208375?type=pdf"
+			(at 76.2 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Connector End Plate For CLIPLINE PT Series"
+			(at 76.2 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr" "Phoenix Contact"
+			(at 76.2 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Cost" "$0.84"
+			(at 76.2 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project ".kicad_sch"
+				(path "/09dbfdd6-7cc7-4520-a5d9-a383f63872a0/224bdcb2-225d-496a-8b41-82b301326953"
+					(reference "EDP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDPWR")
 		(at 77.47 186.69 0)
 		(unit 1)
@@ -21272,7 +21584,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a1f7a565-45f7-4b7d-8533-9f71a2595405")
-		(property "Reference" "F1"
+		(property "Reference" "TB-F1"
 			(at 152.4 161.036 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22069,6 +22381,12 @@
 		(members "1ffbee90-e392-49fb-8ffa-ce8feeb5ce15" "84582f29-f42c-4b39-8dee-8a112c42f51f")
 	)
 	(group ""
+		(uuid "299e0035-dea9-4528-958b-a7a09d826be4")
+		(members "42df5caa-bae0-4a50-ba0f-9dd8941d685e" "4bd7e53a-7d38-4ecd-8432-b9f5ac363194"
+			"b111f4ef-747b-4532-bcae-c79c99dfd81c"
+		)
+	)
+	(group ""
 		(uuid "2d7e43fd-b239-467b-8e54-c767fd2a0db0")
 		(members "23e2d6bf-ec14-481c-8bb8-d4122937c33e" "382be5d5-f0a6-4790-adde-77b14eac87ce")
 	)
@@ -22095,6 +22413,12 @@
 		(members "56b65f4c-70c2-4599-a378-83ad01cec6ce" "9697cc6c-b27d-423e-9405-318485a86c6c")
 	)
 	(group ""
+		(uuid "744da6b6-2ba5-4715-89fa-7a8f9863ad04")
+		(members "4068ad7a-fbe7-4976-bd7a-c0ec6364373a" "75d45680-9181-4e9f-a676-1592d1334ffd"
+			"98bc8ce3-7aa6-41c4-a76d-1cfd572a8f35"
+		)
+	)
+	(group ""
 		(uuid "80398df6-4a24-4d2f-adb6-c472937929a3")
 		(members "6dd5d4f0-0691-4e81-aed3-eb2b02e64dc7" "86588142-61e7-4c9a-8ca0-90cf6ec9253c"
 			"a8c850f9-9fa7-4335-a326-c2ca25e3444e" "ca81c759-f5e0-40c5-97ce-5075eff4b1df"
@@ -22108,6 +22432,12 @@
 	(group ""
 		(uuid "84f666e7-92c1-44d4-8e71-094e9d23edf0")
 		(members "9cc99e0c-110b-4835-bbab-e99e7817e6f2" "bc50d6c1-fd84-4855-a143-d7a867fa9bfd")
+	)
+	(group ""
+		(uuid "8ff5d33f-827d-4253-bb42-731e648bee01")
+		(members "56f0fa76-b8e0-4468-a004-a105887fba94" "7fc72059-b556-4555-aff5-4ca5d6438bd3"
+			"f423f867-ad08-4089-a9f6-450827d82194"
+		)
 	)
 	(group ""
 		(uuid "976b3b21-e98d-4ed2-bdac-40d3b4e50d0b")
