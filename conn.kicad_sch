@@ -11,6 +11,7 @@
 		(company "SLAC")
 		(comment 1 "ENGR: J.Park")
 		(comment 2 "CHKR: J.P")
+		(comment 3 "DRFT: KiCad v10")
 	)
 	(lib_symbols
 		(symbol "Connector:IEC_60320_C13_Plug"

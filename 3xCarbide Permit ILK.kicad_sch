@@ -10,7 +10,8 @@
 		(rev "1")
 		(company "SLAC")
 		(comment 1 "ENGR: J.Park")
-		(comment 2 "CHKR: J.P")
+		(comment 2 "CHKR: J.Park")
+		(comment 3 "DRFT: KiCad v10")
 	)
 	(lib_symbols
 		(symbol "CONN_UT00104PH(M)_1"
