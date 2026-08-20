@@ -10,7 +10,7 @@
 		(rev "1")
 		(company "SLAC")
 		(comment 1 "ENGR: J.Park")
-		(comment 2 "CHKR: J.Park")
+		(comment 2 "CHKR: ")
 		(comment 3 "DRFT: KiCad v10")
 	)
 	(lib_symbols
@@ -212,14 +212,14 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "CONN_UT00104SH(F)_1"
+		(symbol "CONN_UT00104PH(M)_2"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "CONN"
-				(at 5.588 2.794 0)
+				(at 5.08 2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -271,10 +271,10 @@
 					)
 				)
 			)
-			(symbol "CONN_UT00104SH(F)_1_0_1"
+			(symbol "CONN_UT00104PH(M)_2_0_1"
 				(polyline
 					(pts
-						(xy 1.27 2.54) (xy 2.54 2.54) (xy 2.54 1.27) (xy 8.89 1.27) (xy 8.89 0.635) (xy 8.89 0.508) (xy 8.89 -9.652)
+						(xy 1.27 2.54) (xy 2.54 2.54) (xy 2.54 1.27) (xy 8.89 1.27) (xy 8.89 0.635) (xy 5.08 0.635) (xy 5.08 -9.525)
 						(xy 8.89 -9.525) (xy 8.89 -10.16) (xy 2.54 -10.16) (xy 2.54 -11.43) (xy 1.27 -11.43) (xy 1.27 2.54)
 					)
 					(stroke
@@ -286,61 +286,53 @@
 					)
 				)
 			)
-			(symbol "CONN_UT00104SH(F)_1_1_1"
+			(symbol "CONN_UT00104PH(M)_2_1_1"
 				(rectangle
-					(start 5.08 0.508)
-					(end 8.89 -9.398)
+					(start 5.08 -0.508)
+					(end 8.382 -1.27)
 					(stroke
 						(width 0)
 						(type solid)
 					)
 					(fill
 						(type color)
-						(color 255 255 0 1)
+						(color 0 0 0 1)
 					)
 				)
 				(rectangle
-					(start 5.588 -0.508)
-					(end 8.89 -1.27)
+					(start 5.08 -2.794)
+					(end 8.382 -3.556)
 					(stroke
 						(width 0)
-						(type dot)
+						(type solid)
 					)
 					(fill
-						(type none)
+						(type color)
+						(color 0 0 0 1)
 					)
 				)
 				(rectangle
-					(start 5.588 -2.794)
-					(end 8.89 -3.556)
+					(start 5.08 -4.826)
+					(end 8.382 -5.588)
 					(stroke
 						(width 0)
-						(type dot)
+						(type solid)
 					)
 					(fill
-						(type none)
+						(type color)
+						(color 0 0 0 1)
 					)
 				)
 				(rectangle
-					(start 5.588 -5.334)
-					(end 8.89 -6.096)
+					(start 5.08 -7.112)
+					(end 8.382 -7.874)
 					(stroke
 						(width 0)
-						(type dot)
+						(type solid)
 					)
 					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 5.588 -7.62)
-					(end 8.89 -8.382)
-					(stroke
-						(width 0)
-						(type dot)
-					)
-					(fill
-						(type none)
+						(type color)
+						(color 0 0 0 1)
 					)
 				)
 				(pin passive line
@@ -418,14 +410,14 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "CONN_UT00104SH(F)_2"
+		(symbol "CONN_UT00104PH(M)_3"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "CONN"
-				(at 5.588 2.794 0)
+				(at 5.08 2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -477,10 +469,10 @@
 					)
 				)
 			)
-			(symbol "CONN_UT00104SH(F)_2_0_1"
+			(symbol "CONN_UT00104PH(M)_3_0_1"
 				(polyline
 					(pts
-						(xy 1.27 2.54) (xy 2.54 2.54) (xy 2.54 1.27) (xy 8.89 1.27) (xy 8.89 0.635) (xy 8.89 0.508) (xy 8.89 -9.652)
+						(xy 1.27 2.54) (xy 2.54 2.54) (xy 2.54 1.27) (xy 8.89 1.27) (xy 8.89 0.635) (xy 5.08 0.635) (xy 5.08 -9.525)
 						(xy 8.89 -9.525) (xy 8.89 -10.16) (xy 2.54 -10.16) (xy 2.54 -11.43) (xy 1.27 -11.43) (xy 1.27 2.54)
 					)
 					(stroke
@@ -492,61 +484,53 @@
 					)
 				)
 			)
-			(symbol "CONN_UT00104SH(F)_2_1_1"
+			(symbol "CONN_UT00104PH(M)_3_1_1"
 				(rectangle
-					(start 5.08 0.508)
-					(end 8.89 -9.398)
+					(start 5.08 -0.508)
+					(end 8.382 -1.27)
 					(stroke
 						(width 0)
 						(type solid)
 					)
 					(fill
 						(type color)
-						(color 255 255 0 1)
+						(color 0 0 0 1)
 					)
 				)
 				(rectangle
-					(start 5.588 -0.508)
-					(end 8.89 -1.27)
+					(start 5.08 -2.794)
+					(end 8.382 -3.556)
 					(stroke
 						(width 0)
-						(type dot)
+						(type solid)
 					)
 					(fill
-						(type none)
+						(type color)
+						(color 0 0 0 1)
 					)
 				)
 				(rectangle
-					(start 5.588 -2.794)
-					(end 8.89 -3.556)
+					(start 5.08 -4.826)
+					(end 8.382 -5.588)
 					(stroke
 						(width 0)
-						(type dot)
+						(type solid)
 					)
 					(fill
-						(type none)
+						(type color)
+						(color 0 0 0 1)
 					)
 				)
 				(rectangle
-					(start 5.588 -5.334)
-					(end 8.89 -6.096)
+					(start 5.08 -7.112)
+					(end 8.382 -7.874)
 					(stroke
 						(width 0)
-						(type dot)
+						(type solid)
 					)
 					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 5.588 -7.62)
-					(end 8.89 -8.382)
-					(stroke
-						(width 0)
-						(type dot)
-					)
-					(fill
-						(type none)
+						(type color)
+						(color 0 0 0 1)
 					)
 				)
 				(pin passive line
@@ -624,14 +608,14 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "CONN_UT00104SH(F)_3"
+		(symbol "CONN_UT00104PH(M)_4"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "CONN"
-				(at 5.588 2.794 0)
+				(at 5.08 2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -683,10 +667,10 @@
 					)
 				)
 			)
-			(symbol "CONN_UT00104SH(F)_3_0_1"
+			(symbol "CONN_UT00104PH(M)_4_0_1"
 				(polyline
 					(pts
-						(xy 1.27 2.54) (xy 2.54 2.54) (xy 2.54 1.27) (xy 8.89 1.27) (xy 8.89 0.635) (xy 8.89 0.508) (xy 8.89 -9.652)
+						(xy 1.27 2.54) (xy 2.54 2.54) (xy 2.54 1.27) (xy 8.89 1.27) (xy 8.89 0.635) (xy 5.08 0.635) (xy 5.08 -9.525)
 						(xy 8.89 -9.525) (xy 8.89 -10.16) (xy 2.54 -10.16) (xy 2.54 -11.43) (xy 1.27 -11.43) (xy 1.27 2.54)
 					)
 					(stroke
@@ -698,61 +682,53 @@
 					)
 				)
 			)
-			(symbol "CONN_UT00104SH(F)_3_1_1"
+			(symbol "CONN_UT00104PH(M)_4_1_1"
 				(rectangle
-					(start 5.08 0.508)
-					(end 8.89 -9.398)
+					(start 5.08 -0.508)
+					(end 8.382 -1.27)
 					(stroke
 						(width 0)
 						(type solid)
 					)
 					(fill
 						(type color)
-						(color 255 255 0 1)
+						(color 0 0 0 1)
 					)
 				)
 				(rectangle
-					(start 5.588 -0.508)
-					(end 8.89 -1.27)
+					(start 5.08 -2.794)
+					(end 8.382 -3.556)
 					(stroke
 						(width 0)
-						(type dot)
+						(type solid)
 					)
 					(fill
-						(type none)
+						(type color)
+						(color 0 0 0 1)
 					)
 				)
 				(rectangle
-					(start 5.588 -2.794)
-					(end 8.89 -3.556)
+					(start 5.08 -4.826)
+					(end 8.382 -5.588)
 					(stroke
 						(width 0)
-						(type dot)
+						(type solid)
 					)
 					(fill
-						(type none)
+						(type color)
+						(color 0 0 0 1)
 					)
 				)
 				(rectangle
-					(start 5.588 -5.334)
-					(end 8.89 -6.096)
+					(start 5.08 -7.112)
+					(end 8.382 -7.874)
 					(stroke
 						(width 0)
-						(type dot)
+						(type solid)
 					)
 					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 5.588 -7.62)
-					(end 8.89 -8.382)
-					(stroke
-						(width 0)
-						(type dot)
-					)
-					(fill
-						(type none)
+						(type color)
+						(color 0 0 0 1)
 					)
 				)
 				(pin passive line
@@ -830,14 +806,14 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "CONN_UT00104SH(F)_4"
+		(symbol "CONN_UT00104PH(M)_5"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "CONN"
-				(at 5.588 2.794 0)
+				(at 5.08 2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -889,10 +865,10 @@
 					)
 				)
 			)
-			(symbol "CONN_UT00104SH(F)_4_0_1"
+			(symbol "CONN_UT00104PH(M)_5_0_1"
 				(polyline
 					(pts
-						(xy 1.27 2.54) (xy 2.54 2.54) (xy 2.54 1.27) (xy 8.89 1.27) (xy 8.89 0.635) (xy 8.89 0.508) (xy 8.89 -9.652)
+						(xy 1.27 2.54) (xy 2.54 2.54) (xy 2.54 1.27) (xy 8.89 1.27) (xy 8.89 0.635) (xy 5.08 0.635) (xy 5.08 -9.525)
 						(xy 8.89 -9.525) (xy 8.89 -10.16) (xy 2.54 -10.16) (xy 2.54 -11.43) (xy 1.27 -11.43) (xy 1.27 2.54)
 					)
 					(stroke
@@ -904,61 +880,53 @@
 					)
 				)
 			)
-			(symbol "CONN_UT00104SH(F)_4_1_1"
+			(symbol "CONN_UT00104PH(M)_5_1_1"
 				(rectangle
-					(start 5.08 0.508)
-					(end 8.89 -9.398)
+					(start 5.08 -0.508)
+					(end 8.382 -1.27)
 					(stroke
 						(width 0)
 						(type solid)
 					)
 					(fill
 						(type color)
-						(color 255 255 0 1)
+						(color 0 0 0 1)
 					)
 				)
 				(rectangle
-					(start 5.588 -0.508)
-					(end 8.89 -1.27)
+					(start 5.08 -2.794)
+					(end 8.382 -3.556)
 					(stroke
 						(width 0)
-						(type dot)
+						(type solid)
 					)
 					(fill
-						(type none)
+						(type color)
+						(color 0 0 0 1)
 					)
 				)
 				(rectangle
-					(start 5.588 -2.794)
-					(end 8.89 -3.556)
+					(start 5.08 -4.826)
+					(end 8.382 -5.588)
 					(stroke
 						(width 0)
-						(type dot)
+						(type solid)
 					)
 					(fill
-						(type none)
+						(type color)
+						(color 0 0 0 1)
 					)
 				)
 				(rectangle
-					(start 5.588 -5.334)
-					(end 8.89 -6.096)
+					(start 5.08 -7.112)
+					(end 8.382 -7.874)
 					(stroke
 						(width 0)
-						(type dot)
+						(type solid)
 					)
 					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 5.588 -7.62)
-					(end 8.89 -8.382)
-					(stroke
-						(width 0)
-						(type dot)
-					)
-					(fill
-						(type none)
+						(type color)
+						(color 0 0 0 1)
 					)
 				)
 				(pin passive line
@@ -5244,7 +5212,7 @@
 		)
 		(uuid "bf9eec74-9aeb-4c58-8fbc-b47a28fa034e")
 	)
-	(text "Permit Loop Status\nTo PLC / EPICS"
+	(text "To PLC / EPICS"
 		(exclude_from_sim no)
 		(at 355.346 74.676 0)
 		(effects
@@ -10408,131 +10376,6 @@
 		)
 	)
 	(symbol
-		(lib_name "CONN_UT00104SH(F)_3")
-		(lib_id "JP_3xCarbide:CONN_UT00104SH(F)")
-		(at 350.52 54.61 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "50003cf3-4ce8-4b42-a69b-4b14009d67f6")
-		(property "Reference" "J6"
-			(at 355.346 51.054 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "UT00104SH"
-			(at 356.87 68.326 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 353.06 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.com/en/ProductDetail/Souriau/UT00104SH?qs=mr%2FYtQLfk94wFcjVT2Rx9A%3D%3D"
-			(at 353.06 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Standard Circular Connector 4P Sckt Receptacle Wall Mount Size 10"
-			(at 353.06 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mfr" "Sourau"
-			(at 350.52 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Conn Info" "Permit Loop Status"
-			(at 355.854 70.104 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Cost" "$24.98"
-			(at 350.52 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "051b1b6e-148e-4318-a469-aa7f057bbf83")
-		)
-		(pin ""
-			(uuid "568aee35-4712-4a08-8815-36dcaf51443e")
-		)
-		(pin ""
-			(uuid "d2e30ff0-5e3b-45d1-a8fe-188879b96708")
-		)
-		(pin ""
-			(uuid "4ca10cd6-1faa-4ba3-b746-84d38e063204")
-		)
-		(instances
-			(project ".kicad_sch"
-				(path "/09dbfdd6-7cc7-4520-a5d9-a383f63872a0/2f06f779-eabb-4614-a40d-bb8dafaf0b3c"
-					(reference "J6")
-					(unit 1)
-				)
-			)
-			(project "3xCarbide Permit ILK"
-				(path "/2f06f779-eabb-4614-a40d-bb8dafaf0b3c"
-					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "DPM_2")
 		(lib_id "JP_3xCarbide:DPM")
 		(at 196.85 200.66 0)
@@ -10678,9 +10521,9 @@
 		)
 	)
 	(symbol
-		(lib_name "CONN_UT00104SH(F)_2")
-		(lib_id "JP_3xCarbide:CONN_UT00104SH(F)")
-		(at 222.25 115.57 0)
+		(lib_name "CONN_UT00104PH(M)_2")
+		(lib_id "JP_3xCarbide:CONN_UT00104PH(M)")
+		(at 220.98 45.72 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10688,20 +10531,19 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "63830ab2-221f-4edd-ba3d-a715569e08b8")
-		(property "Reference" "J4"
-			(at 227.076 112.014 0)
+		(uuid "6c252be4-3105-405e-afd5-36f71df95566")
+		(property "Reference" "J3"
+			(at 226.06 41.91 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "UT00104SH"
-			(at 228.6 129.286 0)
+		(property "Value" "UT00104PH"
+			(at 224.79 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10711,7 +10553,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 224.79 114.3 0)
+			(at 223.52 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10721,8 +10563,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/en/ProductDetail/Souriau/UT00104SH?qs=mr%2FYtQLfk94wFcjVT2Rx9A%3D%3D"
-			(at 224.79 114.3 0)
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/464/1/C001-UT00-A.pdf"
+			(at 223.52 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10732,8 +10574,8 @@
 				)
 			)
 		)
-		(property "Description" "Standard Circular Connector 4P Sckt Receptacle Wall Mount Size 10"
-			(at 224.79 114.3 0)
+		(property "Description" "Standard Circular Connector 4P Pin Receptacle Wall Mount Size 10"
+			(at 223.52 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10743,8 +10585,8 @@
 				)
 			)
 		)
-		(property "Mfr" "Sourau"
-			(at 222.25 115.57 0)
+		(property "Mfr" "Souriau"
+			(at 220.98 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10754,8 +10596,8 @@
 				)
 			)
 		)
-		(property "Conn Info" "Permit Loop2"
-			(at 227.584 131.064 0)
+		(property "Conn Info" "Permit Loop#1"
+			(at 226.06 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10764,8 +10606,8 @@
 				)
 			)
 		)
-		(property "Cost" "$24.98"
-			(at 222.25 115.57 0)
+		(property "Cost" "$22.73"
+			(at 220.98 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10776,27 +10618,21 @@
 			)
 		)
 		(pin ""
-			(uuid "cbabfc89-44a5-4bf0-861e-4358839cb05a")
+			(uuid "dc730ba7-0bcc-4e31-addd-2a37a4d67278")
 		)
 		(pin ""
-			(uuid "90cbbf9a-8dfd-4293-81ae-62ff14c9b9b5")
+			(uuid "03f91104-1712-4651-b0e8-f4eeea1b3c71")
 		)
 		(pin ""
-			(uuid "b6b7a820-656a-4205-9eed-04971abaacfc")
+			(uuid "901fccf1-6978-4ba6-8078-277e8e4ef475")
 		)
 		(pin ""
-			(uuid "6c340a03-ca6c-49e5-bf40-d15ccc60d8bf")
+			(uuid "1179c7bf-903d-4914-b004-5e8a39185e67")
 		)
 		(instances
-			(project ".kicad_sch"
-				(path "/09dbfdd6-7cc7-4520-a5d9-a383f63872a0/2f06f779-eabb-4614-a40d-bb8dafaf0b3c"
-					(reference "J4")
-					(unit 1)
-				)
-			)
 			(project "3xCarbide Permit ILK"
 				(path "/2f06f779-eabb-4614-a40d-bb8dafaf0b3c"
-					(reference "J4")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -10921,6 +10757,242 @@
 			(project "3xCarbide Permit ILK"
 				(path "/2f06f779-eabb-4614-a40d-bb8dafaf0b3c"
 					(reference "SSR-StsA3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "CONN_UT00104PH(M)_3")
+		(lib_id "JP_3xCarbide:CONN_UT00104PH(M)")
+		(at 222.25 115.57 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "71a627e8-46ef-48af-8b2a-4d65e108a500")
+		(property "Reference" "J4"
+			(at 227.33 111.76 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "UT00104PH"
+			(at 226.06 129.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/464/1/C001-UT00-A.pdf"
+			(at 224.79 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Standard Circular Connector 4P Pin Receptacle Wall Mount Size 10"
+			(at 224.79 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr" "Souriau"
+			(at 222.25 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Conn Info" "Permit Loop#1"
+			(at 227.33 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Cost" "$22.73"
+			(at 222.25 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "f3ac39da-1046-439e-9edf-56fe4c7ca5e6")
+		)
+		(pin ""
+			(uuid "90cefbe4-ae9f-4da3-bac0-b5fd98b3b045")
+		)
+		(pin ""
+			(uuid "6592b8d6-2fd7-49c5-8ce4-e4b71ae57e9a")
+		)
+		(pin ""
+			(uuid "5b8ec86f-e436-4eb6-9126-55d4f3c479ca")
+		)
+		(instances
+			(project "3xCarbide Permit ILK"
+				(path "/2f06f779-eabb-4614-a40d-bb8dafaf0b3c"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "CONN_UT00104PH(M)_4")
+		(lib_id "JP_3xCarbide:CONN_UT00104PH(M)")
+		(at 223.52 184.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7510e5a6-91cf-4748-a9e1-4020a8a0b551")
+		(property "Reference" "J5"
+			(at 228.6 180.34 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "UT00104PH"
+			(at 227.33 198.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 226.06 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/464/1/C001-UT00-A.pdf"
+			(at 226.06 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Standard Circular Connector 4P Pin Receptacle Wall Mount Size 10"
+			(at 226.06 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr" "Souriau"
+			(at 223.52 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Conn Info" "Permit Loop#1"
+			(at 228.6 200.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Cost" "$22.73"
+			(at 223.52 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "a6564022-464e-4480-9f16-2ce9c4d6a4e8")
+		)
+		(pin ""
+			(uuid "00fc4fc1-563b-4ea3-82b3-c63d955ba0d0")
+		)
+		(pin ""
+			(uuid "d243ec1b-e700-4d2d-913d-f05a4bee2708")
+		)
+		(pin ""
+			(uuid "cebd8d89-5f6c-4856-8651-7b1043146880")
+		)
+		(instances
+			(project "3xCarbide Permit ILK"
+				(path "/2f06f779-eabb-4614-a40d-bb8dafaf0b3c"
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -11405,131 +11477,6 @@
 			(project "3xCarbide Permit ILK"
 				(path "/2f06f779-eabb-4614-a40d-bb8dafaf0b3c"
 					(reference "TB-A1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "CONN_UT00104SH(F)_1")
-		(lib_id "JP_3xCarbide:CONN_UT00104SH(F)")
-		(at 220.98 45.72 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8bcd19b0-f7cf-4f7f-8bea-0591c6751156")
-		(property "Reference" "J3"
-			(at 225.806 42.164 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "UT00104SH"
-			(at 227.33 59.436 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 223.52 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.com/en/ProductDetail/Souriau/UT00104SH?qs=mr%2FYtQLfk94wFcjVT2Rx9A%3D%3D"
-			(at 223.52 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Standard Circular Connector 4P Sckt Receptacle Wall Mount Size 10"
-			(at 223.52 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mfr" "Sourau"
-			(at 220.98 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Conn Info" "Permit Loop1"
-			(at 226.314 61.214 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Cost" "$24.98"
-			(at 220.98 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "441c72a9-c702-4b1a-88b6-bd1e28f0ef80")
-		)
-		(pin ""
-			(uuid "7e334d88-3e26-4fe6-b1f5-09e509a7b3a3")
-		)
-		(pin ""
-			(uuid "d5c2fe20-f057-4c39-9bbb-69c40cc74b1a")
-		)
-		(pin ""
-			(uuid "8d2e29c4-a9d2-4c30-a643-606f47f3501f")
-		)
-		(instances
-			(project ".kicad_sch"
-				(path "/09dbfdd6-7cc7-4520-a5d9-a383f63872a0/2f06f779-eabb-4614-a40d-bb8dafaf0b3c"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-			(project "3xCarbide Permit ILK"
-				(path "/2f06f779-eabb-4614-a40d-bb8dafaf0b3c"
-					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -12330,131 +12277,6 @@
 		)
 	)
 	(symbol
-		(lib_name "CONN_UT00104SH(F)_4")
-		(lib_id "JP_3xCarbide:CONN_UT00104SH(F)")
-		(at 223.52 184.15 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b2d89b16-ea0d-430a-9764-d79351f8ae77")
-		(property "Reference" "J5"
-			(at 228.346 180.594 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "UT00104SH"
-			(at 229.87 197.866 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 226.06 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.com/en/ProductDetail/Souriau/UT00104SH?qs=mr%2FYtQLfk94wFcjVT2Rx9A%3D%3D"
-			(at 226.06 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Standard Circular Connector 4P Sckt Receptacle Wall Mount Size 10"
-			(at 226.06 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mfr" "Sourau"
-			(at 223.52 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Conn Info" "Permit Loop3"
-			(at 228.854 199.644 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Cost" "$24.98"
-			(at 223.52 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "c0451654-b1e3-4dd1-a2b1-a536b7f975dd")
-		)
-		(pin ""
-			(uuid "d8e48111-a801-4693-8f08-ec6e1687a9e2")
-		)
-		(pin ""
-			(uuid "0af131d6-cb27-49a8-95bf-9410d9c4ca68")
-		)
-		(pin ""
-			(uuid "2bc92997-00d7-48b1-aab8-a107db14b5c0")
-		)
-		(instances
-			(project ".kicad_sch"
-				(path "/09dbfdd6-7cc7-4520-a5d9-a383f63872a0/2f06f779-eabb-4614-a40d-bb8dafaf0b3c"
-					(reference "J5")
-					(unit 1)
-				)
-			)
-			(project "3xCarbide Permit ILK"
-				(path "/2f06f779-eabb-4614-a40d-bb8dafaf0b3c"
-					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "JP_3xCarbide:SSR_MIRO_52511")
 		(at 293.37 54.61 0)
 		(unit 1)
@@ -12573,6 +12395,124 @@
 			(project "3xCarbide Permit ILK"
 				(path "/2f06f779-eabb-4614-a40d-bb8dafaf0b3c"
 					(reference "SSR-StsA1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "CONN_UT00104PH(M)_5")
+		(lib_id "JP_3xCarbide:CONN_UT00104PH(M)")
+		(at 350.52 54.61 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c799572d-8c15-478e-a8c3-676056d071a8")
+		(property "Reference" "J6"
+			(at 355.6 50.8 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "UT00104PH"
+			(at 354.33 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 353.06 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/464/1/C001-UT00-A.pdf"
+			(at 353.06 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Standard Circular Connector 4P Pin Receptacle Wall Mount Size 10"
+			(at 353.06 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr" "Souriau"
+			(at 350.52 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Conn Info" "Permit Loop Status"
+			(at 355.6 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Cost" "$22.73"
+			(at 350.52 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "7db82078-4928-480b-8fcb-1bb4783b8c07")
+		)
+		(pin ""
+			(uuid "921f8138-fa88-4619-bd8f-f847b11abcca")
+		)
+		(pin ""
+			(uuid "67212a5e-c6b8-4149-a889-adb7e2fe8c38")
+		)
+		(pin ""
+			(uuid "5b95a555-a97d-4936-816d-631309e8b914")
+		)
+		(instances
+			(project "3xCarbide Permit ILK"
+				(path "/2f06f779-eabb-4614-a40d-bb8dafaf0b3c"
+					(reference "J6")
 					(unit 1)
 				)
 			)

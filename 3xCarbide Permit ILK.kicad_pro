@@ -434,7 +434,7 @@
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": false,
-      "sort_field": "${EXCLUDE_FROM_BOM}"
+      "sort_field": "Sim.Pins"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -482,7 +482,7 @@
         "uuid": "224bdcb2-225d-496a-8b41-82b301326953"
       }
     ],
-    "used_designators": "TB1-10,PTJP1-6,SSR1-6,#PWR1-13,FH1-2,JP1,CONN1-2,F1-3,J1-8,LED1-7,PS1-2,SSR\\-StsA2-3,SSR\\-A1-8,SSR\\-B1-6,SW1-10,DPM1-3,TB\\-A5-6",
+    "used_designators": "TB1-10,PTJP1-6,SSR1-6,#PWR1-13,FH1-2,JP1,CONN1-2,F1-3,J1-8,LED1-7,PS1-2,SSR\\-StsA2-3,SSR\\-A1-8,SSR\\-B1-6,SW1-10,DPM1-3,TB\\-A5-6,PIN1,Socket1,Bcksh1",
     "variants": []
   },
   "sheets": [
