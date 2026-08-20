@@ -8591,7 +8591,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/3/5927/2/52511_Product_PDF_en.pdf"
+		(property "Datasheet" "https://www.automationdirect.com/adc/shopping/catalog/relays_-z-_timers/optocoupler_relays/52511?srsltid=AfmBOoq-n2697LSqzmjaMwd-Sr5CC2yJvxaUk5WAfUlPuLUUbm9nKA0Z"
 			(at 161.798 153.924 0)
 			(hide yes)
 			(show_name no)
@@ -8602,7 +8602,7 @@
 				)
 			)
 		)
-		(property "Description" "MIRO TR 24VDC 20KHZ IN<1MA OPTO-"
+		(property "Description" "MIRO TR 24VDC 20KHZ IN<1MA OPTO-SPST"
 			(at 162.814 151.638 0)
 			(hide yes)
 			(show_name no)
@@ -8635,7 +8635,7 @@
 				)
 			)
 		)
-		(property "Cost" "$63"
+		(property "Cost" "$22.50"
 			(at 153.67 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -8983,7 +8983,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/3/5927/2/52511_Product_PDF_en.pdf"
+		(property "Datasheet" "https://www.automationdirect.com/adc/shopping/catalog/relays_-z-_timers/optocoupler_relays/52511?srsltid=AfmBOoq-n2697LSqzmjaMwd-Sr5CC2yJvxaUk5WAfUlPuLUUbm9nKA0Z"
 			(at 310.388 211.074 0)
 			(hide yes)
 			(show_name no)
@@ -8994,7 +8994,7 @@
 				)
 			)
 		)
-		(property "Description" "MIRO TR 24VDC 20KHZ IN<1MA OPTO-"
+		(property "Description" "MIRO TR 24VDC 20KHZ IN<1MA OPTO-SPST"
 			(at 311.404 208.788 0)
 			(hide yes)
 			(show_name no)
@@ -9027,7 +9027,7 @@
 				)
 			)
 		)
-		(property "Cost" "$63"
+		(property "Cost" "$22.50"
 			(at 302.26 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -9575,7 +9575,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/3/5927/2/52511_Product_PDF_en.pdf"
+		(property "Datasheet" "https://www.automationdirect.com/adc/shopping/catalog/relays_-z-_timers/optocoupler_relays/52511?srsltid=AfmBOoq-n2697LSqzmjaMwd-Sr5CC2yJvxaUk5WAfUlPuLUUbm9nKA0Z"
 			(at 161.798 133.604 0)
 			(hide yes)
 			(show_name no)
@@ -9586,7 +9586,7 @@
 				)
 			)
 		)
-		(property "Description" "MIRO TR 24VDC 20KHZ IN<1MA OPTO-"
+		(property "Description" "MIRO TR 24VDC 20KHZ IN<1MA OPTO-SPST"
 			(at 162.814 131.318 0)
 			(hide yes)
 			(show_name no)
@@ -9619,7 +9619,7 @@
 				)
 			)
 		)
-		(property "Cost" "$63"
+		(property "Cost" "$22.50"
 			(at 153.67 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -10077,7 +10077,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/3/5927/2/52511_Product_PDF_en.pdf"
+		(property "Datasheet" "https://www.automationdirect.com/adc/shopping/catalog/relays_-z-_timers/optocoupler_relays/52511?srsltid=AfmBOoq-n2697LSqzmjaMwd-Sr5CC2yJvxaUk5WAfUlPuLUUbm9nKA0Z"
 			(at 160.528 63.754 0)
 			(hide yes)
 			(show_name no)
@@ -10088,7 +10088,7 @@
 				)
 			)
 		)
-		(property "Description" "MIRO TR 24VDC 20KHZ IN<1MA OPTO-"
+		(property "Description" "MIRO TR 24VDC 20KHZ IN<1MA OPTO-SPST"
 			(at 161.544 61.468 0)
 			(hide yes)
 			(show_name no)
@@ -10121,7 +10121,7 @@
 				)
 			)
 		)
-		(property "Cost" "$63"
+		(property "Cost" "$22.50"
 			(at 152.4 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -11745,7 +11745,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/3/5927/2/52511_Product_PDF_en.pdf"
+		(property "Datasheet" "https://www.automationdirect.com/adc/shopping/catalog/relays_-z-_timers/optocoupler_relays/52511?srsltid=AfmBOoq-n2697LSqzmjaMwd-Sr5CC2yJvxaUk5WAfUlPuLUUbm9nKA0Z"
 			(at 160.528 84.074 0)
 			(hide yes)
 			(show_name no)
@@ -11756,7 +11756,7 @@
 				)
 			)
 		)
-		(property "Description" "MIRO TR 24VDC 20KHZ IN<1MA OPTO-"
+		(property "Description" "MIRO TR 24VDC 20KHZ IN<1MA OPTO-SPST"
 			(at 161.544 81.788 0)
 			(hide yes)
 			(show_name no)
@@ -11789,7 +11789,7 @@
 				)
 			)
 		)
-		(property "Cost" "$63"
+		(property "Cost" "$22.50"
 			(at 152.4 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -12247,7 +12247,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/3/5927/2/52511_Product_PDF_en.pdf"
+		(property "Datasheet" "https://www.automationdirect.com/adc/shopping/catalog/relays_-z-_timers/optocoupler_relays/52511?srsltid=AfmBOoq-n2697LSqzmjaMwd-Sr5CC2yJvxaUk5WAfUlPuLUUbm9nKA0Z"
 			(at 163.068 222.504 0)
 			(hide yes)
 			(show_name no)
@@ -12258,7 +12258,7 @@
 				)
 			)
 		)
-		(property "Description" "MIRO TR 24VDC 20KHZ IN<1MA OPTO-"
+		(property "Description" "MIRO TR 24VDC 20KHZ IN<1MA OPTO-SPST"
 			(at 164.084 220.218 0)
 			(hide yes)
 			(show_name no)
@@ -12291,7 +12291,7 @@
 				)
 			)
 		)
-		(property "Cost" "$63"
+		(property "Cost" "$22.50"
 			(at 154.94 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -12738,7 +12738,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/3/5927/2/52511_Product_PDF_en.pdf"
+		(property "Datasheet" "https://www.automationdirect.com/adc/shopping/catalog/relays_-z-_timers/optocoupler_relays/52511?srsltid=AfmBOoq-n2697LSqzmjaMwd-Sr5CC2yJvxaUk5WAfUlPuLUUbm9nKA0Z"
 			(at 310.388 190.754 0)
 			(hide yes)
 			(show_name no)
@@ -12749,7 +12749,7 @@
 				)
 			)
 		)
-		(property "Description" "MIRO TR 24VDC 20KHZ IN<1MA OPTO-"
+		(property "Description" "MIRO TR 24VDC 20KHZ IN<1MA OPTO-SPST"
 			(at 311.404 188.468 0)
 			(hide yes)
 			(show_name no)
@@ -12782,7 +12782,7 @@
 				)
 			)
 		)
-		(property "Cost" "$63"
+		(property "Cost" "$22.50"
 			(at 302.26 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -12862,7 +12862,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/3/5927/2/52511_Product_PDF_en.pdf"
+		(property "Datasheet" "https://www.automationdirect.com/adc/shopping/catalog/relays_-z-_timers/optocoupler_relays/52511?srsltid=AfmBOoq-n2697LSqzmjaMwd-Sr5CC2yJvxaUk5WAfUlPuLUUbm9nKA0Z"
 			(at 163.068 202.184 0)
 			(hide yes)
 			(show_name no)
@@ -12873,7 +12873,7 @@
 				)
 			)
 		)
-		(property "Description" "MIRO TR 24VDC 20KHZ IN<1MA OPTO-"
+		(property "Description" "MIRO TR 24VDC 20KHZ IN<1MA OPTO-SPST"
 			(at 164.084 199.898 0)
 			(hide yes)
 			(show_name no)
@@ -12906,7 +12906,7 @@
 				)
 			)
 		)
-		(property "Cost" "$63"
+		(property "Cost" "$22.50"
 			(at 154.94 194.31 0)
 			(hide yes)
 			(show_name no)
