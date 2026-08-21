@@ -5156,6 +5156,19 @@
 		(uuid "0f97241e-e204-40de-87f3-c84279db6090")
 	)
 	(rectangle
+		(start 364.49 166.37)
+		(end 393.7 215.265)
+		(stroke
+			(width 0.254)
+			(type dash)
+			(color 132 132 132 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "53014bd7-fd09-41d9-aaf5-83a1835a676f")
+	)
+	(rectangle
 		(start 137.16 109.855)
 		(end 242.57 166.37)
 		(stroke
@@ -5215,6 +5228,17 @@
 		)
 		(uuid "22171e81-dc43-4bc3-993d-6cf46e6fcc09")
 	)
+	(text "Reserved \nfor PLC interface"
+		(exclude_from_sim no)
+		(at 367.03 208.28 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left top)
+		)
+		(uuid "32d95c44-9b25-471c-b3eb-a61bfa45edeb")
+	)
 	(text "Carbide Permit Current Loop 3 (Ch-A + Ch-B)"
 		(exclude_from_sim no)
 		(at 140.97 174.752 0)
@@ -5249,7 +5273,7 @@
 	)
 	(text "Note:\n24VDC1: Indicators\n24VDC2: DPM1 to 3"
 		(exclude_from_sim no)
-		(at 370.84 145.288 0)
+		(at 364.49 144.78 0)
 		(effects
 			(font
 				(size 2.54 2.54)

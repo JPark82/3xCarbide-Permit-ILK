@@ -3976,6 +3976,16 @@
 		)
 		(uuid "90745e5d-c668-4823-b952-ef8cef3f5da7")
 	)
+	(text "C/D Not use"
+		(exclude_from_sim no)
+		(at 217.17 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "968b0fa1-33df-4905-ab9d-8491c127d4a4")
+	)
 	(text "J1"
 		(exclude_from_sim no)
 		(at 82.296 117.602 0)
@@ -4084,12 +4094,12 @@
 		)
 		(uuid "bc50d6c1-fd84-4855-a143-d7a867fa9bfd")
 	)
-	(text "Carbide Permit Interface Cable"
+	(text "Carbide Permit Interface Cable Connection Example"
 		(exclude_from_sim no)
-		(at 128.27 127 0)
+		(at 124.46 127 0)
 		(effects
 			(font
-				(size 2.54 2.54)
+				(size 1.778 1.778)
 			)
 			(justify left)
 		)
@@ -30892,7 +30902,7 @@
 		)
 	)
 	(global_label "24VDC_RTN"
-		(shape output)
+		(shape input)
 		(at 162.56 185.42 0)
 		(fields_autoplaced yes)
 		(effects

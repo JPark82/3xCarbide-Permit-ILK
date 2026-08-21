@@ -487,7 +487,7 @@
         "uuid": "11495205-1fdb-47c4-99db-f154182cce3f"
       }
     ],
-    "used_designators": "TB1-10,PTJP1-6,SSR1-6,#PWR1-13,FH1-2,JP1,ACC(F).PmtChA\\-P6,CONN1-2,PLUG1,F1-3,J1-8,LED1-7,ACC(F).STS\\-P5,PS1-2,SSR\\-StsA2-3,SSR\\-A1-8,SSR\\-B1-6,SW1-10,DPM1-3,TB\\-A5-7,PIN1,Socket1,Bcksh1-3,R1-6,ACC(F).LPM\\-P2-4,ACC(M).LPM\\-P2-3,ACC.Bcksh(F)\\-P2-6,ACC.Bcksh(M)\\-P2-3",
+    "used_designators": "TB1-10,PTJP1-6,SSR1-6,#PWR1-13,FH1-2,JP1,ACC(F).PmtChA\\-P6,CONN1-2,PLUG1,F1-3,J1-8,LED1-7,ACC(F).STS\\-P5,PS1-2,SSR\\-StsA2-3,SSR\\-A1-8,SSR\\-B1-6,SW1-10,ACC(F).LSR_STOP\\-P6-7,DPM1-3,TB\\-A5-7,PIN1,Socket1,Bcksh1-3,R1-6,ACC(F).LPM\\-P2-4,ACC(M).LPM\\-P2-4,ACC.Bcksh(F)\\-P2-7,ACC.Bcksh(F)\\-P10,ACC(F).PmtChB\\-P7,ACC.Bcksh(M)\\-P2-4",
     "variants": []
   },
   "sheets": [
