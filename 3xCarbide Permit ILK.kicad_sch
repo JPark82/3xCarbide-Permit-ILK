@@ -6,8 +6,8 @@
 	(paper "B")
 	(title_block
 		(title "LCLS-II BCS CARBIDE PERMIT INTERLOCK")
-		(date "2026-08-14")
-		(rev "1")
+		(date "2026-08-21")
+		(rev "1.01")
 		(company "SLAC")
 		(comment 1 "ENGR: J.Park")
 		(comment 2 "CHKR: ")
@@ -1960,6 +1960,146 @@
 					(at 3.81 0 180)
 					(length 2.54)
 					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5001,121 +5141,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:GND"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "GND_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(rectangle
 		(start 274.955 166.37)
@@ -5256,16 +5281,22 @@
 		(uuid "fac2a49a-84cb-4c12-a037-442f6eea2485")
 	)
 	(junction
-		(at 283.21 49.53)
+		(at 267.97 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0130da9b-db6d-4b94-b3b5-77d1704b67da")
+		(uuid "0038ca7e-487b-4092-b41c-0644e67f7c7c")
 	)
 	(junction
-		(at 283.21 72.39)
+		(at 267.97 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "41b19439-d795-487d-9bea-0ee7657c7613")
+		(uuid "22a62d3e-bfa0-41b0-88a4-7b09ca0655f0")
+	)
+	(junction
+		(at 267.97 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "419a31b3-7fe8-410f-a630-c79e0dae54a5")
 	)
 	(junction
 		(at 311.15 95.25)
@@ -5274,22 +5305,10 @@
 		(uuid "43231786-a91e-41c6-9fb5-d279e4cbd0bc")
 	)
 	(junction
-		(at 283.21 95.25)
+		(at 290.83 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6700d24c-8c5d-4bd5-9816-e248a33a2dad")
-	)
-	(junction
-		(at 283.21 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7013a4cc-3faa-4a2c-bd0c-a5299ee973e9")
-	)
-	(junction
-		(at 283.21 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "703ba5af-4eb5-4279-9cd8-b89da86415c6")
+		(uuid "577d993a-e062-4e76-a3b5-d797b56112c8")
 	)
 	(junction
 		(at 311.15 72.39)
@@ -5298,10 +5317,16 @@
 		(uuid "86e8dea0-8106-4408-b29f-c7f709b99db0")
 	)
 	(junction
-		(at 283.21 60.96)
+		(at 290.83 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e9c2c741-c9f1-4d9e-b02c-46ab5fb3726f")
+		(uuid "cfe75188-9945-4c30-b684-da0b7b5971b2")
+	)
+	(junction
+		(at 290.83 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dede2aed-64bd-457e-aee2-1622a856deb2")
 	)
 	(no_connect
 		(at 76.2 119.38)
@@ -5328,12 +5353,20 @@
 		(uuid "3aa99b80-17d5-49aa-b36e-06c5024f59f8")
 	)
 	(no_connect
+		(at 384.81 177.8)
+		(uuid "3f368e6f-261c-4778-8018-b3a44b42588a")
+	)
+	(no_connect
 		(at 76.2 77.47)
 		(uuid "42eccc04-fe56-4169-b440-82936f9ab813")
 	)
 	(no_connect
 		(at 219.71 48.26)
 		(uuid "43e1d4f3-abbf-40bc-b2ba-46d2d1f04dc7")
+	)
+	(no_connect
+		(at 370.84 177.8)
+		(uuid "44d56dcd-826b-47d0-a4de-e374539ae19e")
 	)
 	(no_connect
 		(at 210.82 62.23)
@@ -5364,6 +5397,10 @@
 		(uuid "6f446e2c-bb7b-4b76-8059-d9101dd3a944")
 	)
 	(no_connect
+		(at 370.84 193.04)
+		(uuid "753842a4-cdee-4c2b-943d-3c65b008c1f2")
+	)
+	(no_connect
 		(at 212.09 132.08)
 		(uuid "82aac7a2-8742-4ce0-b7d1-e388cb77b2b3")
 	)
@@ -5374,6 +5411,10 @@
 	(no_connect
 		(at 220.98 115.57)
 		(uuid "90108b32-e31a-4d26-a42d-f159275a4308")
+	)
+	(no_connect
+		(at 370.84 198.12)
+		(uuid "9027d12e-06c4-400c-b6c8-e7c363cd42a5")
 	)
 	(no_connect
 		(at 222.25 186.69)
@@ -5388,12 +5429,24 @@
 		(uuid "953c959f-88a2-4e31-870e-524172d090ec")
 	)
 	(no_connect
+		(at 384.81 198.12)
+		(uuid "981707aa-0186-4345-bf38-6b53b2d1ff64")
+	)
+	(no_connect
 		(at 64.77 166.37)
 		(uuid "9aa75bee-3c72-4827-9f50-2badbc75561a")
 	)
 	(no_connect
 		(at 210.82 86.36)
 		(uuid "9d9b8624-3d1e-4c16-b8d2-558347a0c46f")
+	)
+	(no_connect
+		(at 384.81 172.72)
+		(uuid "b1266787-66c6-4bd0-9558-a85eb487ed8b")
+	)
+	(no_connect
+		(at 384.81 193.04)
+		(uuid "b4bf30b1-2120-4bdb-87b9-a604ac4a8bfb")
 	)
 	(no_connect
 		(at 213.36 210.82)
@@ -5422,6 +5475,10 @@
 	(no_connect
 		(at 63.5 212.09)
 		(uuid "d0651d71-fbd2-4c95-b667-7ccbdfec1bf0")
+	)
+	(no_connect
+		(at 370.84 172.72)
+		(uuid "d09a5d71-c7b8-445d-92c8-e0630094b20e")
 	)
 	(no_connect
 		(at 212.09 137.16)
@@ -5489,6 +5546,16 @@
 	)
 	(wire
 		(pts
+			(xy 287.02 54.61) (xy 290.83 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0556bff4-681e-4b66-8332-44d77d1d80aa")
+	)
+	(wire
+		(pts
 			(xy 64.77 100.33) (xy 62.23 100.33)
 		)
 		(stroke
@@ -5509,7 +5576,7 @@
 	)
 	(wire
 		(pts
-			(xy 299.72 182.88) (xy 302.26 182.88)
+			(xy 299.72 182.88) (xy 337.82 182.88)
 		)
 		(stroke
 			(width 0)
@@ -5549,13 +5616,23 @@
 	)
 	(wire
 		(pts
-			(xy 299.72 203.2) (xy 302.26 203.2)
+			(xy 299.72 203.2) (xy 337.82 203.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "13277a9d-c713-42b9-9546-a605df279a3b")
+	)
+	(wire
+		(pts
+			(xy 287.02 100.33) (xy 290.83 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "145c025b-40e6-4087-98be-776a964e1621")
 	)
 	(wire
 		(pts
@@ -5579,16 +5656,6 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 60.96) (xy 280.67 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1bf652af-da38-4484-80e0-c5d0a347707f")
-	)
-	(wire
-		(pts
 			(xy 62.23 64.77) (xy 62.23 58.42)
 		)
 		(stroke
@@ -5599,7 +5666,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 72.39) (xy 283.21 72.39)
+			(xy 260.35 72.39) (xy 267.97 72.39)
 		)
 		(stroke
 			(width 0)
@@ -5669,7 +5736,7 @@
 	)
 	(wire
 		(pts
-			(xy 295.91 177.8) (xy 302.26 177.8)
+			(xy 295.91 177.8) (xy 304.8 177.8)
 		)
 		(stroke
 			(width 0)
@@ -5759,13 +5826,13 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 49.53) (xy 293.37 49.53)
+			(xy 270.51 54.61) (xy 267.97 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2e51adfc-3481-4389-bc01-f2f12b0740f2")
+		(uuid "2cf29e79-3c14-4899-b803-5d5f1995947d")
 	)
 	(wire
 		(pts
@@ -5829,6 +5896,16 @@
 	)
 	(wire
 		(pts
+			(xy 278.13 77.47) (xy 279.4 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "391cf51e-1fa8-45ff-81ba-f659edf58915")
+	)
+	(wire
+		(pts
 			(xy 260.35 147.32) (xy 212.09 147.32)
 		)
 		(stroke
@@ -5859,6 +5936,16 @@
 	)
 	(wire
 		(pts
+			(xy 267.97 95.25) (xy 293.37 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c99677c-701c-44a0-9117-ea45bb22384b")
+	)
+	(wire
+		(pts
 			(xy 180.34 224.79) (xy 186.69 224.79)
 		)
 		(stroke
@@ -5879,23 +5966,13 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 60.96) (xy 283.21 60.96)
+			(xy 280.67 60.96) (xy 290.83 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "408d6b08-d285-4023-807e-6a09a9d93faf")
-	)
-	(wire
-		(pts
-			(xy 283.21 83.82) (xy 280.67 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "418304cb-7708-4e7b-9073-8bf6109df4f2")
 	)
 	(wire
 		(pts
@@ -5919,7 +5996,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 49.53) (xy 283.21 49.53)
+			(xy 257.81 49.53) (xy 267.97 49.53)
 		)
 		(stroke
 			(width 0)
@@ -5979,6 +6056,16 @@
 	)
 	(wire
 		(pts
+			(xy 337.82 177.8) (xy 337.82 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4faa91a7-b614-4820-8974-4074578fd112")
+	)
+	(wire
+		(pts
 			(xy 167.64 125.73) (xy 173.99 125.73)
 		)
 		(stroke
@@ -5999,7 +6086,7 @@
 	)
 	(wire
 		(pts
-			(xy 341.63 203.2) (xy 345.44 203.2)
+			(xy 332.74 198.12) (xy 337.82 198.12)
 		)
 		(stroke
 			(width 0)
@@ -6019,7 +6106,7 @@
 	)
 	(wire
 		(pts
-			(xy 295.91 198.12) (xy 302.26 198.12)
+			(xy 295.91 198.12) (xy 304.8 198.12)
 		)
 		(stroke
 			(width 0)
@@ -6079,7 +6166,7 @@
 	)
 	(wire
 		(pts
-			(xy 316.23 182.88) (xy 334.01 182.88)
+			(xy 312.42 177.8) (xy 325.12 177.8)
 		)
 		(stroke
 			(width 0)
@@ -6109,7 +6196,7 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 106.68) (xy 283.21 106.68)
+			(xy 280.67 106.68) (xy 290.83 106.68)
 		)
 		(stroke
 			(width 0)
@@ -6139,13 +6226,13 @@
 	)
 	(wire
 		(pts
-			(xy 316.23 177.8) (xy 322.58 177.8)
+			(xy 287.02 77.47) (xy 290.83 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "61e7732e-c41e-4916-b7f9-38ef3faefbf4")
+		(uuid "61d7ce41-892b-4f1a-8ce9-5a674d22ea61")
 	)
 	(wire
 		(pts
@@ -6159,6 +6246,16 @@
 	)
 	(wire
 		(pts
+			(xy 312.42 198.12) (xy 325.12 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6525f517-7698-4a82-9042-5a1fd87178a7")
+	)
+	(wire
+		(pts
 			(xy 290.83 100.33) (xy 290.83 106.68)
 		)
 		(stroke
@@ -6166,6 +6263,16 @@
 			(type default)
 		)
 		(uuid "678538a6-7657-4f7c-916e-c238aebe9fbb")
+	)
+	(wire
+		(pts
+			(xy 267.97 72.39) (xy 293.37 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68298868-4af5-4b2e-a37b-e50fc02c3e69")
 	)
 	(wire
 		(pts
@@ -6209,6 +6316,16 @@
 	)
 	(wire
 		(pts
+			(xy 267.97 54.61) (xy 267.97 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e1ef282-5b45-46c7-a605-3308421e3919")
+	)
+	(wire
+		(pts
 			(xy 76.2 50.8) (xy 78.74 50.8)
 		)
 		(stroke
@@ -6249,23 +6366,13 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 102.87) (xy 283.21 106.68)
+			(xy 267.97 72.39) (xy 267.97 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "741f39cc-50e2-4842-bc06-42cd86a146d0")
-	)
-	(wire
-		(pts
-			(xy 283.21 106.68) (xy 280.67 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c1bb9c0-3d0a-44cb-a42a-f6cd039e7245")
+		(uuid "797d6e25-cd39-4a39-89de-40c711046bde")
 	)
 	(wire
 		(pts
@@ -6339,16 +6446,6 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 95.25) (xy 293.37 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87fe85f9-4d61-4623-94d2-8cda48d71e49")
-	)
-	(wire
-		(pts
 			(xy 74.93 193.04) (xy 77.47 193.04)
 		)
 		(stroke
@@ -6359,7 +6456,7 @@
 	)
 	(wire
 		(pts
-			(xy 341.63 182.88) (xy 345.44 182.88)
+			(xy 332.74 177.8) (xy 337.82 177.8)
 		)
 		(stroke
 			(width 0)
@@ -6389,13 +6486,13 @@
 	)
 	(wire
 		(pts
-			(xy 316.23 198.12) (xy 323.85 198.12)
+			(xy 278.13 100.33) (xy 279.4 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "90aa1f65-d3be-4c83-8a81-bea0790101f9")
+		(uuid "94230a75-0dcf-459b-b9b0-ce07b0accce2")
 	)
 	(wire
 		(pts
@@ -6409,7 +6506,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 95.25) (xy 283.21 95.25)
+			(xy 262.89 95.25) (xy 267.97 95.25)
 		)
 		(stroke
 			(width 0)
@@ -6499,16 +6596,6 @@
 	)
 	(wire
 		(pts
-			(xy 345.44 182.88) (xy 345.44 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b824c42-3ac8-449d-9f0a-367bf0ad6498")
-	)
-	(wire
-		(pts
 			(xy 181.61 76.2) (xy 181.61 55.88)
 		)
 		(stroke
@@ -6516,16 +6603,6 @@
 			(type default)
 		)
 		(uuid "9ebf80a2-2173-4969-8f48-117e66d5974b")
-	)
-	(wire
-		(pts
-			(xy 316.23 203.2) (xy 334.01 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9eedfe3a-c5c6-4568-a5ab-8ee3995b6c19")
 	)
 	(wire
 		(pts
@@ -6549,7 +6626,7 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 83.82) (xy 283.21 83.82)
+			(xy 280.67 83.82) (xy 290.83 83.82)
 		)
 		(stroke
 			(width 0)
@@ -6566,16 +6643,6 @@
 			(type default)
 		)
 		(uuid "a712c89e-5cf0-4956-8a32-65ce4b3a5da7")
-	)
-	(wire
-		(pts
-			(xy 345.44 203.2) (xy 345.44 205.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a88606de-15a9-48d7-839e-ea22e54b2a5c")
 	)
 	(wire
 		(pts
@@ -6646,16 +6713,6 @@
 			(type default)
 		)
 		(uuid "b488eef2-be42-42b8-9ec0-547d29dcd33e")
-	)
-	(wire
-		(pts
-			(xy 283.21 72.39) (xy 293.37 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b58f5d2d-0378-40fa-86bc-924dc6a6ac8f")
 	)
 	(wire
 		(pts
@@ -6779,6 +6836,16 @@
 	)
 	(wire
 		(pts
+			(xy 267.97 95.25) (xy 267.97 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d23280f8-fd37-43e6-9e57-6d72caa5ef58")
+	)
+	(wire
+		(pts
 			(xy 76.2 58.42) (xy 78.74 58.42)
 		)
 		(stroke
@@ -6799,13 +6866,13 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 57.15) (xy 283.21 60.96)
+			(xy 270.51 100.33) (xy 267.97 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d63f6c2a-d84b-454d-a57e-d55390aacaaf")
+		(uuid "d3f44a03-3d6e-4a03-b8b1-d0345a0a01d5")
 	)
 	(wire
 		(pts
@@ -6819,13 +6886,13 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 80.01) (xy 283.21 83.82)
+			(xy 337.82 198.12) (xy 337.82 203.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d8aa8704-6bbe-4057-b179-cf165ba63c0a")
+		(uuid "d6f32e63-ae78-4528-9703-2f5cbddc5fea")
 	)
 	(wire
 		(pts
@@ -6869,6 +6936,16 @@
 	)
 	(wire
 		(pts
+			(xy 267.97 49.53) (xy 293.37 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e31c9509-46ed-40e9-a1ca-ef2c435f286e")
+	)
+	(wire
+		(pts
 			(xy 260.35 72.39) (xy 260.35 147.32)
 		)
 		(stroke
@@ -6886,6 +6963,16 @@
 			(type default)
 		)
 		(uuid "e8f590f9-7727-4932-8d67-a56575e3f61f")
+	)
+	(wire
+		(pts
+			(xy 270.51 77.47) (xy 267.97 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec64c5cd-f927-48db-95fd-d1ce260efcd5")
 	)
 	(wire
 		(pts
@@ -6926,6 +7013,16 @@
 			(type default)
 		)
 		(uuid "edfe771e-fe68-4562-9bd8-398cde89a5e4")
+	)
+	(wire
+		(pts
+			(xy 278.13 54.61) (xy 279.4 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef50bb1b-701a-45ef-ad8b-286c5db6a77b")
 	)
 	(wire
 		(pts
@@ -7691,30 +7788,6 @@
 			)
 		)
 	)
-	(global_label "24VDC1"
-		(shape input)
-		(at 323.85 198.12 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "95949def-bfd4-4fb8-8731-09b3d1ed1c5f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 334.0923 198.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "Permit-B0"
 		(shape input)
 		(at 78.74 166.37 0)
@@ -7952,30 +8025,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "24VDC1"
-		(shape input)
-		(at 322.58 177.8 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "cf85de84-24a6-474e-bc96-d43f2dc1a5bf")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 332.8223 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -8382,6 +8431,107 @@
 			(project "3xCarbide Permit ILK"
 				(path "/2f06f779-eabb-4614-a40d-bb8dafaf0b3c"
 					(reference "PTJP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 308.61 177.8 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "136a26dd-c043-4c08-9d03-d0fcf9045094")
+		(property "Reference" "R4"
+			(at 308.61 175.26 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2K2"
+			(at 308.61 180.34 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 308.61 179.578 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/en/ProductDetail/YAGEO/MFR-25JT-52-2K2?qs=sGAEpiMZZMsPqMdJzcrNwqpmsrDQJrmxQlgeW66reHiKxneTK%2FnR%252BQ%3D%3D"
+			(at 308.61 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 308.61 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Cost" "$0.21"
+			(at 308.61 177.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Info" "2K2, Metal Film Resistors, 1/4W"
+			(at 308.61 177.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b8a0c180-9414-46d2-9a18-92503c83aded")
+		)
+		(pin "1"
+			(uuid "2c0ba46e-7b38-4e89-b296-a043dcd146f6")
+		)
+		(instances
+			(project "3xCarbide Permit ILK"
+				(path "/2f06f779-eabb-4614-a40d-bb8dafaf0b3c"
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -8911,130 +9061,6 @@
 	)
 	(symbol
 		(lib_id "JP_3xCarbide:SSR_MIRO_52511")
-		(at 302.26 203.2 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1cbabc93-6b09-4f5f-9bae-6e144919d402")
-		(property "Reference" "SSR-B0"
-			(at 308.61 194.056 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "52511"
-			(at 309.372 207.01 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 310.134 212.852 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.automationdirect.com/adc/shopping/catalog/relays_-z-_timers/optocoupler_relays/52511?srsltid=AfmBOoq-n2697LSqzmjaMwd-Sr5CC2yJvxaUk5WAfUlPuLUUbm9nKA0Z"
-			(at 310.388 211.074 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "MIRO TR 24VDC 20KHZ IN<1MA OPTO-SPST"
-			(at 311.404 208.788 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mfr" "Murr"
-			(at 302.26 203.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Note" "This product is not kept in stock at DigiKey // Long lead time"
-			(at 302.26 203.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Cost" "$22.50"
-			(at 302.26 203.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "14"
-			(uuid "99540092-af30-446e-ab0a-fd3c666d07a4")
-		)
-		(pin "13"
-			(uuid "16aea24e-acfe-4156-b7ca-71301f13c1ba")
-		)
-		(pin "2"
-			(uuid "a9052a8e-8239-4ff1-993f-ed3e8fcfc449")
-		)
-		(pin "1"
-			(uuid "029208e1-aabc-49e2-859d-552ffe91882d")
-		)
-		(instances
-			(project ".kicad_sch"
-				(path "/09dbfdd6-7cc7-4520-a5d9-a383f63872a0/2f06f779-eabb-4614-a40d-bb8dafaf0b3c"
-					(reference "SSR-B0")
-					(unit 1)
-				)
-			)
-			(project "3xCarbide Permit ILK"
-				(path "/2f06f779-eabb-4614-a40d-bb8dafaf0b3c"
-					(reference "SSR-B0")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "JP_3xCarbide:SSR_MIRO_52511")
 		(at 293.37 77.47 0)
 		(unit 1)
 		(body_style 1)
@@ -9044,7 +9070,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1fb7c485-7aa3-4f1b-b47c-3e83537bd004")
-		(property "Reference" "SSR-StsA2"
+		(property "Reference" "SSR-StsLP2"
 			(at 299.72 68.326 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9130,6 +9156,17 @@
 				)
 			)
 		)
+		(property "Info" "Loop Status"
+			(at 293.37 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "14"
 			(uuid "e2aeaa7b-8bf8-4d37-9a70-579547b3917f")
 		)
@@ -9151,7 +9188,7 @@
 			)
 			(project "3xCarbide Permit ILK"
 				(path "/2f06f779-eabb-4614-a40d-bb8dafaf0b3c"
-					(reference "SSR-StsA2")
+					(reference "SSR-StsLP2")
 					(unit 1)
 				)
 			)
@@ -9277,7 +9314,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 283.21 53.34 90)
+		(at 283.21 54.61 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9287,7 +9324,7 @@
 		(dnp no)
 		(uuid "27892ad1-d070-469e-84d4-c9263f0104a1")
 		(property "Reference" "LED4"
-			(at 286.512 53.594 0)
+			(at 283.464 51.308 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9296,8 +9333,8 @@
 				)
 			)
 		)
-		(property "Value" "GRN/24V"
-			(at 279.908 54.102 0)
+		(property "Value" "OVLFG3C7"
+			(at 284.48 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9307,7 +9344,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 283.21 53.34 0)
+			(at 283.21 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9318,7 +9355,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/tt-electronics-optek-technology/OVLFG3C7/827117"
-			(at 283.21 53.34 0)
+			(at 283.21 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9329,7 +9366,7 @@
 			)
 		)
 		(property "Description" "LED GREEN CLEAR 5MM T/H"
-			(at 283.21 53.34 0)
+			(at 283.21 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9340,7 +9377,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 283.21 53.34 0)
+			(at 283.21 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9351,7 +9388,7 @@
 			)
 		)
 		(property "Cost" "$0.44"
-			(at 283.21 53.34 0)
+			(at 283.21 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9362,7 +9399,18 @@
 			)
 		)
 		(property "Mfr" "TT Electronics"
-			(at 283.21 53.34 0)
+			(at 283.21 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Info" "Green 525nm LED Indication - Discrete 3.4V Radial"
+			(at 283.21 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9496,6 +9544,107 @@
 			(project "3xCarbide Permit ILK"
 				(path "/2f06f779-eabb-4614-a40d-bb8dafaf0b3c"
 					(reference "PTJP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 274.32 77.47 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "28d92cdf-431d-466e-a583-87cd0099b7ca")
+		(property "Reference" "R2"
+			(at 274.32 74.93 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2K2"
+			(at 274.32 80.01 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 274.32 79.248 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/en/ProductDetail/YAGEO/MFR-25JT-52-2K2?qs=sGAEpiMZZMsPqMdJzcrNwqpmsrDQJrmxQlgeW66reHiKxneTK%2FnR%252BQ%3D%3D"
+			(at 274.32 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 274.32 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Cost" "$0.21"
+			(at 274.32 77.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Info" "2K2, Metal Film Resistors, 1/4W"
+			(at 274.32 77.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "10b10feb-48c2-4d54-9ee6-28fbd7a382ac")
+		)
+		(pin "1"
+			(uuid "fd78e1a9-03c5-4ce9-b27d-36e04c5eedd8")
+		)
+		(instances
+			(project "3xCarbide Permit ILK"
+				(path "/2f06f779-eabb-4614-a40d-bb8dafaf0b3c"
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -9738,6 +9887,107 @@
 			(project "3xCarbide Permit ILK"
 				(path "/2f06f779-eabb-4614-a40d-bb8dafaf0b3c"
 					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 308.61 198.12 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "30df4a6c-73ea-4d3a-a919-44e27aa56d39")
+		(property "Reference" "R5"
+			(at 308.61 195.58 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2K2"
+			(at 308.61 200.66 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 308.61 199.898 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/en/ProductDetail/YAGEO/MFR-25JT-52-2K2?qs=sGAEpiMZZMsPqMdJzcrNwqpmsrDQJrmxQlgeW66reHiKxneTK%2FnR%252BQ%3D%3D"
+			(at 308.61 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 308.61 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Cost" "$0.21"
+			(at 308.61 198.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Info" "2K2, Metal Film Resistors, 1/4W"
+			(at 308.61 198.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7c64f7e3-6212-45d2-8dbc-8a322f5048c4")
+		)
+		(pin "1"
+			(uuid "c810409c-6444-4716-bf78-ff122e24534d")
+		)
+		(instances
+			(project "3xCarbide Permit ILK"
+				(path "/2f06f779-eabb-4614-a40d-bb8dafaf0b3c"
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -10122,6 +10372,124 @@
 			(project "3xCarbide Permit ILK"
 				(path "/2f06f779-eabb-4614-a40d-bb8dafaf0b3c"
 					(reference "SSR-A1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JP_3xCarbide:SSR_MIRO_52511")
+		(at 370.84 177.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4b2a2743-221f-4c8b-abdb-8dc92872f496")
+		(property "Reference" "SSR-A4"
+			(at 377.19 168.656 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "52511"
+			(at 377.952 181.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 378.714 187.452 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.automationdirect.com/adc/shopping/catalog/relays_-z-_timers/optocoupler_relays/52511?srsltid=AfmBOoq-n2697LSqzmjaMwd-Sr5CC2yJvxaUk5WAfUlPuLUUbm9nKA0Z"
+			(at 378.968 185.674 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "MIRO TR 24VDC 20KHZ IN<1MA OPTO-SPST"
+			(at 379.984 183.388 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr" "Murr"
+			(at 370.84 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Note" "This product is not kept in stock at DigiKey // Long lead time"
+			(at 370.84 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Cost" "$22.50"
+			(at 370.84 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "14"
+			(uuid "bc06dd69-4ea5-4513-b5cd-7e1a8f4de026")
+		)
+		(pin "13"
+			(uuid "f8d62590-34b0-4c29-ad51-8c7ed50e5bb7")
+		)
+		(pin "2"
+			(uuid "b0797470-f797-4dc7-87a0-f98de5efecc4")
+		)
+		(pin "1"
+			(uuid "0cfeadae-9069-4a58-aa11-9629f7723b8e")
+		)
+		(instances
+			(project "3xCarbide Permit ILK"
+				(path "/2f06f779-eabb-4614-a40d-bb8dafaf0b3c"
+					(reference "SSR-A4")
 					(unit 1)
 				)
 			)
@@ -10649,7 +11017,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "710305c2-617f-4ea3-8686-ab46fed49742")
-		(property "Reference" "SSR-StsA3"
+		(property "Reference" "SSR-StsLP3"
 			(at 299.72 91.186 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10735,6 +11103,17 @@
 				)
 			)
 		)
+		(property "Info" "Loop Status"
+			(at 293.37 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "14"
 			(uuid "1f2d4429-5878-4e45-a376-66d761d15f9f")
 		)
@@ -10756,7 +11135,7 @@
 			)
 			(project "3xCarbide Permit ILK"
 				(path "/2f06f779-eabb-4614-a40d-bb8dafaf0b3c"
-					(reference "SSR-StsA3")
+					(reference "SSR-StsLP3")
 					(unit 1)
 				)
 			)
@@ -11000,7 +11379,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 283.21 76.2 90)
+		(at 283.21 77.47 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11010,7 +11389,7 @@
 		(dnp no)
 		(uuid "785fcc2d-12da-4559-9142-8b35eb2a79c7")
 		(property "Reference" "LED5"
-			(at 286.512 76.454 0)
+			(at 283.464 74.168 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11019,8 +11398,8 @@
 				)
 			)
 		)
-		(property "Value" "GRN/24V"
-			(at 279.908 76.962 0)
+		(property "Value" "OVLFG3C7"
+			(at 284.48 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11030,7 +11409,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 283.21 76.2 0)
+			(at 283.21 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11041,7 +11420,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/tt-electronics-optek-technology/OVLFG3C7/827117"
-			(at 283.21 76.2 0)
+			(at 283.21 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11052,7 +11431,7 @@
 			)
 		)
 		(property "Description" "LED GREEN CLEAR 5MM T/H"
-			(at 283.21 76.2 0)
+			(at 283.21 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11063,7 +11442,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 283.21 76.2 0)
+			(at 283.21 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11074,7 +11453,7 @@
 			)
 		)
 		(property "Cost" "$0.44"
-			(at 283.21 76.2 0)
+			(at 283.21 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11085,7 +11464,18 @@
 			)
 		)
 		(property "Mfr" "TT Electronics"
-			(at 283.21 76.2 0)
+			(at 283.21 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Info" "Green 525nm LED Indication - Discrete 3.4V Radial"
+			(at 283.21 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11117,8 +11507,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 337.82 182.88 180)
+		(lib_id "Device:R")
+		(at 274.32 100.33 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11126,9 +11516,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "7b5e3933-21a7-480e-812e-01508346e4f1")
-		(property "Reference" "LED1"
-			(at 338.074 179.578 0)
+		(uuid "7a7bf50f-13aa-4d73-bb66-32c9b1388e27")
+		(property "Reference" "R3"
+			(at 274.32 97.79 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11137,8 +11527,8 @@
 				)
 			)
 		)
-		(property "Value" "GRN/24V"
-			(at 338.582 186.182 0)
+		(property "Value" "2K2"
+			(at 274.32 102.87 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11148,7 +11538,108 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 337.82 182.88 0)
+			(at 274.32 102.108 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/en/ProductDetail/YAGEO/MFR-25JT-52-2K2?qs=sGAEpiMZZMsPqMdJzcrNwqpmsrDQJrmxQlgeW66reHiKxneTK%2FnR%252BQ%3D%3D"
+			(at 274.32 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 274.32 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Cost" "$0.21"
+			(at 274.32 100.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Info" "2K2, Metal Film Resistors, 1/4W"
+			(at 274.32 100.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "50f73f86-e411-448c-a485-6d640fea0902")
+		)
+		(pin "1"
+			(uuid "15a687ff-9f79-4f9c-ba4a-59873e796df4")
+		)
+		(instances
+			(project "3xCarbide Permit ILK"
+				(path "/2f06f779-eabb-4614-a40d-bb8dafaf0b3c"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 328.93 177.8 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7b5e3933-21a7-480e-812e-01508346e4f1")
+		(property "Reference" "LED1"
+			(at 329.184 174.498 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OVLFG3C7"
+			(at 329.692 181.102 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 328.93 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11159,7 +11650,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/tt-electronics-optek-technology/OVLFG3C7/827117"
-			(at 337.82 182.88 0)
+			(at 328.93 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11170,7 +11661,7 @@
 			)
 		)
 		(property "Description" "LED GREEN CLEAR 5MM T/H"
-			(at 337.82 182.88 0)
+			(at 328.93 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11181,7 +11672,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 337.82 182.88 0)
+			(at 328.93 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11192,7 +11683,7 @@
 			)
 		)
 		(property "Cost" "$0.44"
-			(at 337.82 182.88 0)
+			(at 328.93 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11203,7 +11694,18 @@
 			)
 		)
 		(property "Mfr" "TT Electronics"
-			(at 337.82 182.88 0)
+			(at 328.93 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Info" "Green 525nm LED Indication - Discrete 3.4V Radial"
+			(at 328.93 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11477,174 +11979,6 @@
 			(project "3xCarbide Permit ILK"
 				(path "/2f06f779-eabb-4614-a40d-bb8dafaf0b3c"
 					(reference "TB-A1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 345.44 185.42 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8db09950-4f2a-4969-8155-48627e238f17")
-		(property "Reference" "#PWR01"
-			(at 345.44 191.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 345.44 190.5 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 345.44 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 345.44 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 345.44 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3ac73735-bf54-4130-91ed-0eb87e07fc5c")
-		)
-		(instances
-			(project ".kicad_sch"
-				(path "/09dbfdd6-7cc7-4520-a5d9-a383f63872a0/2f06f779-eabb-4614-a40d-bb8dafaf0b3c"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-			(project "3xCarbide Permit ILK"
-				(path "/2f06f779-eabb-4614-a40d-bb8dafaf0b3c"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 345.44 205.74 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "93f72383-ef20-4d3a-972c-c10e6206104f")
-		(property "Reference" "#PWR02"
-			(at 345.44 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 345.44 210.82 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 345.44 205.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 345.44 205.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 345.44 205.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4e522eee-f2c4-4214-8539-07f4f65077f2")
-		)
-		(instances
-			(project ".kicad_sch"
-				(path "/09dbfdd6-7cc7-4520-a5d9-a383f63872a0/2f06f779-eabb-4614-a40d-bb8dafaf0b3c"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-			(project "3xCarbide Permit ILK"
-				(path "/2f06f779-eabb-4614-a40d-bb8dafaf0b3c"
-					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -12287,7 +12621,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bca4f1de-7f21-49c0-8b28-8009c32adfb3")
-		(property "Reference" "SSR-StsA1"
+		(property "Reference" "SSR-StsLP1"
 			(at 299.72 45.466 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12373,6 +12707,17 @@
 				)
 			)
 		)
+		(property "Info" "Loop Status"
+			(at 293.37 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "14"
 			(uuid "07ad3db7-f08c-43bf-a373-5355805471e0")
 		)
@@ -12394,7 +12739,7 @@
 			)
 			(project "3xCarbide Permit ILK"
 				(path "/2f06f779-eabb-4614-a40d-bb8dafaf0b3c"
-					(reference "SSR-StsA1")
+					(reference "SSR-StsLP1")
 					(unit 1)
 				)
 			)
@@ -12631,130 +12976,6 @@
 			(project "3xCarbide Permit ILK"
 				(path "/2f06f779-eabb-4614-a40d-bb8dafaf0b3c"
 					(reference "SW5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "JP_3xCarbide:SSR_MIRO_52511")
-		(at 302.26 182.88 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d07fd070-5abc-4953-b0fe-e87bd8cc3f70")
-		(property "Reference" "SSR-A0"
-			(at 308.61 173.736 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "52511"
-			(at 309.372 186.69 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 310.134 192.532 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.automationdirect.com/adc/shopping/catalog/relays_-z-_timers/optocoupler_relays/52511?srsltid=AfmBOoq-n2697LSqzmjaMwd-Sr5CC2yJvxaUk5WAfUlPuLUUbm9nKA0Z"
-			(at 310.388 190.754 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "MIRO TR 24VDC 20KHZ IN<1MA OPTO-SPST"
-			(at 311.404 188.468 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mfr" "Murr"
-			(at 302.26 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Note" "This product is not kept in stock at DigiKey // Long lead time"
-			(at 302.26 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Cost" "$22.50"
-			(at 302.26 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "14"
-			(uuid "8015c92d-d37e-441c-9d4a-aa0fd4c2f5e6")
-		)
-		(pin "13"
-			(uuid "a773833a-4b8c-4991-b39d-764a9e878227")
-		)
-		(pin "2"
-			(uuid "35e5e0c8-eadb-4e6d-bf8c-1cb3d1236b85")
-		)
-		(pin "1"
-			(uuid "a2987ad1-ca26-4f31-a71c-c17eb8b15e6d")
-		)
-		(instances
-			(project ".kicad_sch"
-				(path "/09dbfdd6-7cc7-4520-a5d9-a383f63872a0/2f06f779-eabb-4614-a40d-bb8dafaf0b3c"
-					(reference "SSR-A0")
-					(unit 1)
-				)
-			)
-			(project "3xCarbide Permit ILK"
-				(path "/2f06f779-eabb-4614-a40d-bb8dafaf0b3c"
-					(reference "SSR-A0")
 					(unit 1)
 				)
 			)
@@ -13015,6 +13236,124 @@
 		)
 	)
 	(symbol
+		(lib_id "JP_3xCarbide:SSR_MIRO_52511")
+		(at 370.84 198.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e48e3979-fc20-443a-9e30-aaf3fcb5b898")
+		(property "Reference" "SSR-B4"
+			(at 377.19 188.976 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "52511"
+			(at 377.952 201.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 378.714 207.772 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.automationdirect.com/adc/shopping/catalog/relays_-z-_timers/optocoupler_relays/52511?srsltid=AfmBOoq-n2697LSqzmjaMwd-Sr5CC2yJvxaUk5WAfUlPuLUUbm9nKA0Z"
+			(at 378.968 205.994 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "MIRO TR 24VDC 20KHZ IN<1MA OPTO-SPST"
+			(at 379.984 203.708 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr" "Murr"
+			(at 370.84 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Note" "This product is not kept in stock at DigiKey // Long lead time"
+			(at 370.84 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Cost" "$22.50"
+			(at 370.84 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "14"
+			(uuid "2d5dc5a2-a9ef-4244-8082-3b61c869cd32")
+		)
+		(pin "13"
+			(uuid "9a983af6-c1ac-4b9e-b16c-87c21b6d1b0c")
+		)
+		(pin "2"
+			(uuid "1a19a355-a133-4298-b367-514c1b1de200")
+		)
+		(pin "1"
+			(uuid "c3630c53-84ea-40f4-930e-971b8cca1d4c")
+		)
+		(instances
+			(project "3xCarbide Permit ILK"
+				(path "/2f06f779-eabb-4614-a40d-bb8dafaf0b3c"
+					(reference "SSR-B4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "JP_3xCarbide:JPTB")
 		(at 58.42 204.47 90)
 		(mirror x)
@@ -13124,7 +13463,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 337.82 203.2 180)
+		(at 328.93 198.12 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13134,7 +13473,7 @@
 		(dnp no)
 		(uuid "e82b8a94-690e-40b8-a082-3e47b4d31e12")
 		(property "Reference" "LED2"
-			(at 338.074 199.898 0)
+			(at 329.184 194.818 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13143,8 +13482,8 @@
 				)
 			)
 		)
-		(property "Value" "GRN/24V"
-			(at 338.582 206.502 0)
+		(property "Value" "OVLFG3C7"
+			(at 329.692 201.422 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13154,7 +13493,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 337.82 203.2 0)
+			(at 328.93 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13165,7 +13504,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/tt-electronics-optek-technology/OVLFG3C7/827117"
-			(at 337.82 203.2 0)
+			(at 328.93 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13176,7 +13515,7 @@
 			)
 		)
 		(property "Description" "LED GREEN CLEAR 5MM T/H"
-			(at 337.82 203.2 0)
+			(at 328.93 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13187,7 +13526,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 337.82 203.2 0)
+			(at 328.93 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13198,7 +13537,7 @@
 			)
 		)
 		(property "Cost" "$0.44"
-			(at 337.82 203.2 0)
+			(at 328.93 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13209,7 +13548,18 @@
 			)
 		)
 		(property "Mfr" "TT Electronics"
-			(at 337.82 203.2 0)
+			(at 328.93 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Info" "Green 525nm LED Indication - Discrete 3.4V Radial"
+			(at 328.93 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13366,8 +13716,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 283.21 99.06 90)
+		(lib_id "Device:R")
+		(at 274.32 54.61 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13375,9 +13725,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "fd8cbed6-72f8-4af6-98d5-d035f4758b8c")
-		(property "Reference" "LED6"
-			(at 286.512 99.314 0)
+		(uuid "fb3b5f65-78c9-4a58-9ec5-5baeec5ce274")
+		(property "Reference" "R1"
+			(at 274.32 52.07 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13386,8 +13736,8 @@
 				)
 			)
 		)
-		(property "Value" "GRN/24V"
-			(at 279.908 99.822 0)
+		(property "Value" "2K2"
+			(at 274.32 57.15 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13397,7 +13747,108 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 283.21 99.06 0)
+			(at 274.32 56.388 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/en/ProductDetail/YAGEO/MFR-25JT-52-2K2?qs=sGAEpiMZZMsPqMdJzcrNwqpmsrDQJrmxQlgeW66reHiKxneTK%2FnR%252BQ%3D%3D"
+			(at 274.32 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 274.32 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Cost" "$0.21"
+			(at 274.32 54.61 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Info" "2K2, Metal Film Resistors, 1/4W"
+			(at 274.32 54.61 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "16732b12-c696-4b65-a0b1-a46bf4343b8c")
+		)
+		(pin "1"
+			(uuid "daf3f66c-7f88-46b5-ba26-0fc39db64993")
+		)
+		(instances
+			(project "3xCarbide Permit ILK"
+				(path "/2f06f779-eabb-4614-a40d-bb8dafaf0b3c"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 283.21 100.33 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fd8cbed6-72f8-4af6-98d5-d035f4758b8c")
+		(property "Reference" "LED6"
+			(at 283.464 97.028 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OVLFG3C7"
+			(at 284.48 102.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 283.21 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13408,7 +13859,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/tt-electronics-optek-technology/OVLFG3C7/827117"
-			(at 283.21 99.06 0)
+			(at 283.21 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13419,7 +13870,7 @@
 			)
 		)
 		(property "Description" "LED GREEN CLEAR 5MM T/H"
-			(at 283.21 99.06 0)
+			(at 283.21 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13430,7 +13881,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 283.21 99.06 0)
+			(at 283.21 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13441,7 +13892,7 @@
 			)
 		)
 		(property "Cost" "$0.44"
-			(at 283.21 99.06 0)
+			(at 283.21 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13452,7 +13903,18 @@
 			)
 		)
 		(property "Mfr" "TT Electronics"
-			(at 283.21 99.06 0)
+			(at 283.21 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Info" "Green 525nm LED Indication - Discrete 3.4V Radial"
+			(at 283.21 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
