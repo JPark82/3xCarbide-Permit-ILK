@@ -5217,6 +5217,17 @@
 		)
 		(uuid "052a5150-aba4-4334-bf6a-cf6306211d32")
 	)
+	(text "Note:\n1) 24VDC1: Indicators\n2) 24VDC2: DPM1 to 3\n3) Indication LEDs (unless otherwise specified): GRN\n4) Internal wiring: AWG #20 signal wire or equivalent"
+		(exclude_from_sim no)
+		(at 274.32 116.84 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left top)
+		)
+		(uuid "210b2c92-c354-42b8-b07a-86377fdbb341")
+	)
 	(text "Carbide Permit Current Loop 1 (Ch-A + Ch-B)"
 		(exclude_from_sim no)
 		(at 139.7 35.814 0)
@@ -5230,7 +5241,7 @@
 	)
 	(text "Reserved \nfor PLC interface"
 		(exclude_from_sim no)
-		(at 367.03 208.28 0)
+		(at 369.57 208.28 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -5270,17 +5281,6 @@
 			)
 		)
 		(uuid "c8814089-cdda-4792-a4d5-79dfc81bae86")
-	)
-	(text "Note:\n24VDC1: Indicators\n24VDC2: DPM1 to 3"
-		(exclude_from_sim no)
-		(at 364.49 144.78 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-			(justify left top)
-		)
-		(uuid "ce5195b4-8b11-493f-ab0d-2e27ab6ac3fa")
 	)
 	(text "Murrelektronik, Inc\n52511 / MIRO TR 24VDC 20KHZ IN<1MA OPTO-\nLong lead time\n"
 		(exclude_from_sim no)
@@ -7380,7 +7380,7 @@
 			)
 		)
 	)
-	(global_label "Permit-B0"
+	(global_label "Permit-B"
 		(shape input)
 		(at 295.91 198.12 180)
 		(fields_autoplaced yes)
@@ -7392,7 +7392,7 @@
 		)
 		(uuid "1c01a754-ef15-4051-9e12-29965690122b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 282.7043 198.12 0)
+			(at 283.9138 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7812,7 +7812,7 @@
 			)
 		)
 	)
-	(global_label "Permit-B0"
+	(global_label "Permit-B"
 		(shape input)
 		(at 78.74 166.37 0)
 		(fields_autoplaced yes)
@@ -7824,7 +7824,7 @@
 		)
 		(uuid "95b6d595-2d05-4f96-9df0-a184adcdfe81")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 91.9457 166.37 0)
+			(at 90.7362 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7860,7 +7860,7 @@
 			)
 		)
 	)
-	(global_label "Permit-A0"
+	(global_label "Permit-A"
 		(shape output)
 		(at 78.74 69.85 0)
 		(fields_autoplaced yes)
@@ -7872,7 +7872,7 @@
 		)
 		(uuid "a8ed49c1-6a66-4e60-be95-44e370a30d8c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 91.7643 69.85 0)
+			(at 90.5548 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8052,7 +8052,7 @@
 			)
 		)
 	)
-	(global_label "Permit-A0"
+	(global_label "Permit-A"
 		(shape input)
 		(at 295.91 177.8 180)
 		(fields_autoplaced yes)
@@ -8064,7 +8064,7 @@
 		)
 		(uuid "d23a35cb-8ce4-4c75-a9f3-b15e2ee545e1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 282.8857 177.8 0)
+			(at 284.0952 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
