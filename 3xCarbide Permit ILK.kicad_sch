@@ -10838,7 +10838,7 @@
 				)
 			)
 		)
-		(property "Conn Info" "Permit Loop#1"
+		(property "Conn Info" "Permit Loop#2"
 			(at 227.33 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10956,7 +10956,7 @@
 				)
 			)
 		)
-		(property "Conn Info" "Permit Loop#1"
+		(property "Conn Info" "Permit Loop#3"
 			(at 228.6 200.66 0)
 			(show_name no)
 			(do_not_autoplace no)
