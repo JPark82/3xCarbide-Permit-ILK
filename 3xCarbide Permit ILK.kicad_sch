@@ -7,7 +7,7 @@
 	(title_block
 		(title "LCLS-II BCS CARBIDE PERMIT INTERLOCK")
 		(date "2026-08-21")
-		(rev "1.01")
+		(rev "1.02")
 		(company "SLAC")
 		(comment 1 "ENGR: J.Park")
 		(comment 2 "CHKR: ")
@@ -5217,7 +5217,7 @@
 		)
 		(uuid "052a5150-aba4-4334-bf6a-cf6306211d32")
 	)
-	(text "Note:\n1) 24VDC1: Indicators\n2) 24VDC2: DPM1 to 3\n3) Indication LEDs (unless otherwise specified): GRN\n4) Internal wiring: AWG #20 signal wire or equivalent"
+	(text "Note:\n1) 24VDC: Indicators & DPM1 to 3\n2) Indication LEDs (unless otherwise specified): GRN\n3) Internal wiring: AWG #20 signal wire or equivalent"
 		(exclude_from_sim no)
 		(at 274.32 116.84 0)
 		(effects
@@ -5260,6 +5260,17 @@
 			(justify left top)
 		)
 		(uuid "8c6eab66-2ef5-4902-a5a2-109009644b4c")
+	)
+	(text "Permit Current Loop (1 to 3): \nSupply XS13-21 (J#.C) (+5 V / 40 mA max.) \n  → Dry Contactor (A/B) → Return = XS13-9 (J#.D)\n  → Carbide Internal Optocoupler (Laser Permit) "
+		(exclude_from_sim no)
+		(at 198.12 238.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "a02dfeed-e45f-4303-b7ec-2e00d0052984")
 	)
 	(text "Carbide Permit Current Loop 2 (Ch-A + Ch-B)"
 		(exclude_from_sim no)
@@ -7236,7 +7247,7 @@
 			)
 		)
 	)
-	(global_label "24VDC1"
+	(global_label "24VDC"
 		(shape input)
 		(at 218.44 80.01 0)
 		(fields_autoplaced yes)
@@ -7248,7 +7259,7 @@
 		)
 		(uuid "022fe792-0243-4b38-bd31-eff528d63bac")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 228.6823 80.01 0)
+			(at 227.4728 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7332,7 +7343,7 @@
 			)
 		)
 	)
-	(global_label "24VDC1"
+	(global_label "24VDC"
 		(shape input)
 		(at 220.98 218.44 0)
 		(fields_autoplaced yes)
@@ -7344,7 +7355,7 @@
 		)
 		(uuid "136a7f8d-9293-47f7-aba6-77016681e549")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 231.2223 218.44 0)
+			(at 230.0128 218.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7716,7 +7727,7 @@
 			)
 		)
 	)
-	(global_label "24VDC1"
+	(global_label "24VDC"
 		(shape input)
 		(at 219.71 149.86 0)
 		(fields_autoplaced yes)
@@ -7728,7 +7739,7 @@
 		)
 		(uuid "804c3143-035a-4e63-98ce-befe0b77f117")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 229.9523 149.86 0)
+			(at 228.7428 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7788,7 +7799,7 @@
 			)
 		)
 	)
-	(global_label "24VDC2"
+	(global_label "24VDC"
 		(shape input)
 		(at 177.8 86.36 180)
 		(fields_autoplaced yes)
@@ -7800,7 +7811,7 @@
 		)
 		(uuid "94a40daa-c9ba-42d5-8274-c9053950eb73")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 167.5577 86.36 0)
+			(at 168.7672 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8004,7 +8015,7 @@
 			)
 		)
 	)
-	(global_label "24VDC2"
+	(global_label "24VDC"
 		(shape input)
 		(at 180.34 224.79 180)
 		(fields_autoplaced yes)
@@ -8016,7 +8027,7 @@
 		)
 		(uuid "c6a15292-8a78-4093-b99b-3f083fbe86d2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 170.0977 224.79 0)
+			(at 171.3072 224.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8076,7 +8087,7 @@
 			)
 		)
 	)
-	(global_label "24VDC2"
+	(global_label "24VDC"
 		(shape input)
 		(at 179.07 156.21 180)
 		(fields_autoplaced yes)
@@ -8088,7 +8099,7 @@
 		)
 		(uuid "da0bf211-9a6b-4291-8ade-637d34fc50f4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 168.8277 156.21 0)
+			(at 170.0372 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
