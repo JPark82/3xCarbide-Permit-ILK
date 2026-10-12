@@ -28308,6 +28308,12 @@
 			)
 		)
 		(instances
+			(project ".kicad_sch"
+				(path "/09dbfdd6-7cc7-4520-a5d9-a383f63872a0/224bdcb2-225d-496a-8b41-82b301326953"
+					(reference "Acc.Socket1")
+					(unit 1)
+				)
+			)
 			(project "3xCarbide Permit ILK"
 				(path "/224bdcb2-225d-496a-8b41-82b301326953"
 					(reference "Acc.Socket1")
@@ -28546,6 +28552,12 @@
 			(uuid "761a7988-be15-43fe-b213-2bc2d6b79864")
 		)
 		(instances
+			(project ".kicad_sch"
+				(path "/09dbfdd6-7cc7-4520-a5d9-a383f63872a0/224bdcb2-225d-496a-8b41-82b301326953"
+					(reference "Acc.PLUG")
+					(unit 1)
+				)
+			)
 			(project "3xCarbide Permit ILK"
 				(path "/224bdcb2-225d-496a-8b41-82b301326953"
 					(reference "Acc.PLUG")
@@ -29024,6 +29036,12 @@
 			(uuid "f1ed5ea8-335c-4d8f-8ff0-977291417a40")
 		)
 		(instances
+			(project ".kicad_sch"
+				(path "/09dbfdd6-7cc7-4520-a5d9-a383f63872a0/224bdcb2-225d-496a-8b41-82b301326953"
+					(reference "R6")
+					(unit 1)
+				)
+			)
 			(project "3xCarbide Permit ILK"
 				(path "/224bdcb2-225d-496a-8b41-82b301326953"
 					(reference "R6")
@@ -29491,6 +29509,12 @@
 			)
 		)
 		(instances
+			(project ".kicad_sch"
+				(path "/09dbfdd6-7cc7-4520-a5d9-a383f63872a0/224bdcb2-225d-496a-8b41-82b301326953"
+					(reference "Acc.Bcksh1")
+					(unit 1)
+				)
+			)
 			(project "3xCarbide Permit ILK"
 				(path "/224bdcb2-225d-496a-8b41-82b301326953"
 					(reference "Acc.Bcksh1")
@@ -29701,6 +29725,12 @@
 			(uuid "7da60e94-9a33-4cb4-bcef-154343f43bb3")
 		)
 		(instances
+			(project ".kicad_sch"
+				(path "/09dbfdd6-7cc7-4520-a5d9-a383f63872a0/224bdcb2-225d-496a-8b41-82b301326953"
+					(reference "PTJP6")
+					(unit 1)
+				)
+			)
 			(project "3xCarbide Permit ILK"
 				(path "/224bdcb2-225d-496a-8b41-82b301326953"
 					(reference "PTJP6")
@@ -29997,6 +30027,12 @@
 			)
 		)
 		(instances
+			(project ".kicad_sch"
+				(path "/09dbfdd6-7cc7-4520-a5d9-a383f63872a0/224bdcb2-225d-496a-8b41-82b301326953"
+					(reference "Acc.PIN1")
+					(unit 1)
+				)
+			)
 			(project "3xCarbide Permit ILK"
 				(path "/224bdcb2-225d-496a-8b41-82b301326953"
 					(reference "Acc.PIN1")
